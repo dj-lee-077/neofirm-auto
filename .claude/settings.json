@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "SessionStart": [
+      { "matcher": "startup|resume",
+        "hooks": [ { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR\"/scripts/setup.sh", "timeout": 300 } ] }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(bash scripts/*)", "Bash(EXTRA=* bash scripts/*)", "Bash(notebooklm:*)", "Bash(jq:*)",
+      "Bash(cat:*)", "Bash(tail:*)", "Bash(wc:*)", "Bash(ls:*)", "Bash(touch state/*)",
+      "Bash(git add:*)", "Bash(git commit:*)", "Bash(git push:*)", "Bash(pip install -r requirements.txt:*)",
+      "Read", "Write", "Edit"
+    ],
+    "deny": [
+      "Bash(notebooklm delete:*)", "Bash(notebooklm language set:*)", "Bash(notebooklm auth logout:*)",
+      "Bash(notebooklm share:*)", "Bash(pip install --upgrade:*)", "Bash(pip install -U:*)"
+    ]
+  }
+}
