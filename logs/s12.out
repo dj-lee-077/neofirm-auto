@@ -1,10 +1,3 @@
-✓ Source ready: 3c801cef-89c0-4a2c-a1bd-329a0f8a20e1
-Title: memo.md
-✓ Source ready: 64ed17d3-6a7c-47a9-974b-8b05f1195b17
-Title: debate.md
-✓ Source ready: 4ecdd558-364a-4486-b9f3-99a7916be67c
-Title: verdict.md
-06:28:34 ERROR [notebooklm._rpc_executor] [req=4cac477e] RPC CREATE_ARTIFACT failed after 1.174s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
-06:29:36 ERROR [notebooklm._rpc_executor] [req=cb05d84a] RPC CREATE_ARTIFACT failed after 1.100s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
-06:31:37 ERROR [notebooklm._rpc_executor] [req=039c34ee] RPC CREATE_ARTIFACT failed after 0.987s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
-06:35:38 ERROR [notebooklm._rpc_executor] [req=a5ce3a7a] RPC CREATE_ARTIFACT failed after 0.925s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
+Unexpected error: CSRF token not found in HTML. Final URL: https://notebook.google.com/
+This may indicate the page structure has changed.
+This may be a bug. Please report at https://github.com/teng-lin/notebooklm-py/issues

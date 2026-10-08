@@ -9,3 +9,4 @@ S0: NOTEBOOKLM_AUTH_JSON 가 유효한 JSON이 아님 (길이 32). input/report.
 ## 2026-10-08 06:14 S12: 웹 UI는 소스 45개, CLI는 50개(삭제한 4개 그대로 보임) — 쓰기는 rpc_code=9(FAILED_PRECONDITION). 계정/세션 불일치 의심.
 ## 2026-10-08 06:21 S12: 사용자가 14개 삭제 후에도 CLI는 소스 50개 → CLI 쿠키 계정이 브라우저와 다름. 쿠키 재발급 필요.
 ## 2026-10-08 06:56 S12: 소스 업로드(memo/debate/verdict) 성공. 슬라이드 생성(CREATE_ARTIFACT)이 RateLimitError로 4회 거절, pending 빈 아티팩트 4개만 남음(poll 무변화). NotebookLM 슬라이드 생성 쿼터 소진 추정. 한도 해제 후 재실행하거나 웹에서 state/slides_prompt.txt로 직접 생성.
+## 2026-10-08 08:51 S12 재시도(예약): CSRF token not found — 쿠키 세션 다시 만료. 쿠키 재발급 후 /neofirm auto 재실행 또는 웹에서 슬라이드 직접 생성 필요.
