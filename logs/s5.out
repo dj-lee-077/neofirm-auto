@@ -1,0 +1,7 @@
+[04:18:48] 딥리서치 시작
+Starting deep research on web...
+Task ID: ChA5ZmM4NDRiZTZjZGEwZGU5EAgaATAqA3VzZQ
+Poll ID: 818888b6-d90e-4bcd-82f8-1a8090317a55
+Research started. Commit its sources once it completes with 'notebooklm research
+import' (or 'notebooklm research wait --import-all' to block until then), 
+otherwise the NotebookLM web UI will keep an 'Add sources?' modal open.
