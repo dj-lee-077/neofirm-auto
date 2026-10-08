@@ -1,0 +1,565 @@
+{
+  "status": "completed",
+  "query": "한국 세무·회계(소규모 사업자 부가가치세 신고 대행) 시장 규모, 업무 프로세스와 단계별 소요시간, 기장·신고 수수료 가격, 경쟁사(혜움, 삼쩜삼, 세무법인 등), AI 도입 사례",
+  "sources_found": 52,
+  "sources": [
+    {
+      "url": "",
+      "title": "한국 소규모 사업자 부가가치세 신고 대행 및 세무·회계 시장 종합 분석 보고서",
+      "result_type": 5,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "report_markdown": "# 한국 소규모 사업자 부가가치세 신고 대행 및 세무·회계 시장 종합 분석 보고서\n\n## 1. 세무·회계 시장 구조 및 소규모 사업자 부가가치세 신고 대행 시장 규모\n\n국내 세무·회계 시장은 개인사업자의 지속적인 증가와 세법 환경의 복잡화, 그리고 세무 테크(TaxTech) 플랫폼의 급격한 침투로 인해 근본적인 구조 재편을 겪고 있다. 2024년 기준 국내 개인사업자 수는 8,797,467명에 달하며, 이 가운데 소규모 과세 특례 대상인 간이과세자는 2,225,573명으로 전체 개인사업자의 25.3%를 차지하고 있다 [cite: 1]. \n\n정부는 영세 자영업자의 세 부담 완화 및 납세 편의 제고를 목적으로 간이과세 적용 기준 매출액을 기존 연 4,800만 원에서 8,000만 원으로 인상한 데 이어, 2024년부터 연 매출 1억 400만 원 미만으로 대폭 상향 조정하였다 [cite: 1, 2, 3, 4]. 이러한 제도적 변화는 간이과세 대상을 대폭 넓혔으나, 연 매출 4,800만 원 이상 1억 400만 원 미만의 간이과세자에게 세금계산서 발급 의무가 신설되면서 실무적인 세무 관리 및 부가가치세 신고의 복잡성은 오히려 대폭 증가하는 결과를 초래하였다 [cite: 3, 5, 6].\n\n일반과세자와 간이과세자는 과세 체계 및 세액 산정 방식에서 명확한 차이를 보인다. 일반과세자의 부가가치세 납부세액은 아래 산식과 같이 매출세액에서 매입세액을 직접 차감하여 산출된다.\n\n$$Tax_{general} = (Sales \\times 10\\%) - Deductible\\_Input\\_Tax$$\n\n반면 간이과세자는 매출액에 업종별 부가가치율과 10% 세율을 곱한 뒤 매입 공급대가의 0.5%를 공제세액으로 차감하여 납부세액을 계산한다.\n\n$$Tax_{simplified} = (Sales \\times Industry\\_Value\\_Added\\_Rate \\times 10\\%) - (Purchase\\_Amount \\times 0.5\\%)$$\n\n| 구 분 | 일반과세자 | 간이과세자 |\n| :--- | :--- | :--- |\n| **적용 기준 (직전 연도 매출)** | 연 매출 1억 400만 원 이상 또는 배제 업종 | 연 매출 1억 400만 원 미만 소규모 사업자 |\n| **과세 기간 및 신고 횟수** | 연 2회 (1기: 1.1~6.30 / 2기: 7.1~12.31) | 연 1회 (1.1~12.31, 단 예정신고 대상 존재) |\n| **적용 세율** | 10% (일반) | 1.5% ~ 4% (업종별 부가가치율 15~40% 적용) |\n| **세금계산서 발급 의무** | 모든 사업자 의무 발급 | 연 매출 4,800만 원 이상 시 발급 의무 발생 |\n| **매입세액 환급 여부** | 매입세액이 매출세액 초과 시 환급 가능 | 환급 불가능 (매입세액이 많아도 환급 불가) |\n\n국내 세무대행 시장의 공급 측면을 분석하면, 회계법인의 전체 연간 매출 규모는 6조 원을 넘어섰으며, 이 중 빅4 회계법인의 세무자문 매출만 6,424억 원을 기록하고 있다 [cite: 7, 8]. 그러나 소규모 개인사업자 및 자영업자를 대상으로 하는 실질적인 부가가치세 신고 대행 및 기장 시장은 주요 세무법인과 개업 세무사 사무소, 그리고 세무 테크 플랫폼이 분점하고 있다 [cite: 9, 10, 11].\n\n연 매출 50억 원을 초과하여 공직자 취업제한 대상에 지정된 대형 세무법인은 전국 180개에 이른다 [cite: 11]. 매출액 상위권 세무법인으로는 광교세무법인(420억 원), 비앤에이치 세무법인(413억 원), 세무법인 다솔(410억~427억 원), 택스홈앤아웃(264억 원), 예일세무법인(249억 원) 등이 시장을 선도하고 있다 [cite: 10, 11, 12]. 한편 개인 세무사 사무소 영역에서는 고부가가치 절세 컨설팅 및 기업 맞춤형 서비스로 전환한 세람택스가 연 매출 94억 원을 기록하며 단일 개인 사무소의 대형화 가능성을 입증하였다 [cite: 13].\n\n소규모 사업자의 부가가치세 신고 대행 시장 규모가 확대되는 근본적인 원인은 과세 관청의 디지털 매출 포착률 상향과 세법 기준의 고도화에 있다. 신용카드, 현금영수증, 온라인 이커머스 결제 내역 등이 홈택스로 자동 집계되면서 매출 은닉이 사실상 불가능해진 반면, 적격 증빙의 매입세액 공제 판단, 안분 계산, 영세율 적용 등의 요건은 한층 까다로워졌다 [cite: 6, 14]. 이에 따라 자력 신고가 어려운 300만~400만 명의 영세 개인사업자가 정기적인 신고 대행이나 월 기장 서비스를 필수적으로 이용하게 되면서, 관련 대행 수수료 시장은 연간 수천억 원 규모의 안정적인 B2B 시장을 형성하고 있다 [cite: 1, 15, 16].\n\n## 2. 부가가치세 신고 대행 업무 프로세스 및 단계별 소요시간 분석\n\n부가가치세 신고 대행 업무는 단순히 수치를 전산에 입력하는 작업을 넘어, 증빙 수집, 세법상 매입세액 공제 여부의 법률적 판정, 세액 산정, 국세청 신고 파일 변환 및 검증을 포함하는 다단계 전문 프로세스이다 [cite: 6].\n\n세무 대행 업무의 첫 단계는 증빙 및 거래 내역의 종합적인 수집에서 시작된다. 홈택스를 통한 전자세금계산서, 현금영수증 내역 조회를 포함하여 여신금융협회 및 각 카드사별 신용카드 매출·매입 내역, 사업용 계좌 입출금 내역, 종이 세금계산서 및 영수증을 수집한다 [cite: 6]. 두 번째 단계는 데이터 파싱 및 파이프라인 연동 과정으로, 수집된 개별 거래 데이터를 회계 전산 시스템으로 가져오며, 종이 증빙이나 PDF 파일 형태의 세금계산서는 광학문자인식(OCR) 기술을 적용해 사업자등록번호, 공급가액, 세액을 추출한다 [cite: 6].\n\n세 번째 단계는 세무 대행 업무의 핵심인 매입세액 공제 요건 검토 및 분개 작업이다. 이 단계에서 세무 전문가는 세법상 공제 대상에서 제외되는 항목들을 엄격히 가려내야 한다. 업무와 직접 관련이 없는 사적 지출, 비영업용 소형 승용차(배기량 1,000cc 초과)의 구입 및 유지비, 접대비 관련 지출, 면세사업 관련 매입세액을 정밀하게 분류하여 차후 발생할 수 있는 가산세 및 세무조사 리스크를 차단한다 [cite: 6]. \n\n네 번째 단계는 부가가치세 신고서 작성 및 공제·감면 세액의 최종 산정이다. 매출·매입처별 세금계산서 합계표, 신용카드매출전표 수령명세서, 전자세금계산서 발급 세액공제, 현금영수증 사업자 공제(발행금액의 1.3%, 연간 1,000만 원 한도) 등을 반영하여 최종 납부세액 또는 환급세액을 산출한다 [cite: 5, 6]. 마지막 다섯 번째 단계는 국세청 홈택스 전자신고 파일 전송 및 검증 단계로, 전산 오류 검증을 거쳐 최종 전송한 후 접수증을 발급받아 보관한다 [cite: 6].\n\n인공지능 및 데이터 자동 수집 기술의 도입은 기존 수작업 중심의 처리 체계를 획기적으로 개선하였다 [cite: 6, 17, 18]. 아래 표는 사업자 1건당 부가가치세 신고 업무에 소요되는 전통 방식과 AI 자동화 솔루션 도입 후의 단계별 소요시간을 비교한 결과이다.\n\n| 업무 단계 | 전통 수작업 방식 소요시간 | AI 및 자동화 솔루션 도입 시 소요시간 | 시간 절감율 |\n| :--- | :--- | :--- | :--- |\n| **1. 증빙 자료 수집** | 60분 ~ 120분 (고객 수동 제출 및 파일 확인) | 5분 (API/스크래핑 자동 연동) [cite: 18] | **91.7% ~ 95.8%** |\n| **2. 데이터 추출 및 입력** | 45분 ~ 60분 (엑셀 정리 및 수기 입력) | 5분 (OCR 및 자동 데이터 파싱) [cite: 6, 18] | **88.9% ~ 91.7%** |\n| **3. 매입세액 공제 검토 및 분개**| 30분 ~ 45분 (건별 개별 판정) | 10분 (AI 규칙 기반 자동 분류 및 예외 검토) | **66.7% ~ 77.8%** |\n| **4. 신고서 작성 및 산정** | 20분 ~ 30분 (서식 직접 작성) | 5분 (원클릭 신고서 자동 생성) [cite: 6] | **75.0% ~ 83.3%** |\n| **5. 홈택스 전송 및 결과 확인**| 10분 ~ 15분 | 2분 (일괄 전자 전송 및 자동 확인) | **80.0% ~ 86.7%** |\n| **합 계 (1건당 기준)** | **165분 ~ 270분 (약 2.75 ~ 4.5시간)** | **27분 (약 0.45시간)** | **83.6% ~ 90.0%** |\n\n전체 업무 소요시간이 1건당 평균 3시간 내외에서 30분 미만으로 줄어듦에 따라, 세무사무소 실무자 1인당 처리 가능한 수임업체 수는 기존 대비 2배 이상 확대되었다 [cite: 17]. 또한 데이터 입력 시 발생하는 휴먼 에러가 크게 줄어들면서, 단순 반복 노동 중심이었던 세무사무소의 업무 구조가 절세 자문 및 경영 컨설팅 중심으로 빠르게 재편되고 있다 [cite: 17, 19].\n\n## 3. 세무 기장 및 신고 대행 수수료 가격 체계\n\n국내 세무 수수료 구조는 매월 거래 내역을 기록·관리하는 '월 기장료', 특정 신고 기간에 일회성으로 업무를 대행하는 '신고 대행료', 그리고 연간 결산 및 종합소득세·법인세 신고 시 청구되는 '세무조정료'로 나뉜다 [cite: 16, 20].\n\n개인사업자의 월 기장료는 연간 매출액과 거래 증빙 수량, 직원 수에 연동되어 설정된다 [cite: 16, 21, 22]. 일반적으로 연 매출 1억 원 미만의 소규모 사업자는 월 8만~10만 원선에서 기본 요금이 형성되며, 연 매출이 커지거나 인건비 신고 대상 직원이 존재하는 경우 월 15만~25만 원 이상으로 상향된다 [cite: 16, 21, 22, 23]. 법인사업자는 복식부기 의무, 법인세 신고 리스크, 4대 보험 관리 부담으로 인해 최소 월 15만~30만 원 수준에서 기장료가 시작된다 [cite: 16, 21, 23, 24].\n\n장부 기장 계약 없이 특정 부가가치세 신고 기한에만 자료를 넘겨 신고를 대행하는 일회성 서비스의 경우, 일반과세자는 회당 10만~15만 원, 간이과세자는 회당 5만~10만 원의 정액 수수료가 청구된다 [cite: 15, 23].\n\n| 구분 및 매출 규모 | 월 기장료 (개인) | 월 기장료 (법인) | 일회성 부가세 신고대행료 | 연간 세무조정료 (연 1회) |\n| :--- | :--- | :--- | :--- | :--- |\n| **연 매출 5천만 원 미만** | 3만 ~ 8만 원 [cite: 22, 23] | 15만 원 안팎 [cite: 22, 23] | 5만 ~ 10만 원 [cite: 15, 23] | 15만 ~ 25만 원 [cite: 22] |\n| **연 매출 5천만~1억 원 미만** | 8만 ~ 12만 원 [cite: 21, 23] | 15만 ~ 20만 원 [cite: 23] | 10만 원 내외 [cite: 15, 23] | 25만 ~ 30만 원 [cite: 22] |\n| **연 매출 1억~3억 원 미만** | 12만 ~ 15만 원 [cite: 21, 23] | 20만 ~ 30만 원 [cite: 21, 23] | 15만 ~ 20만 원 [cite: 16, 23] | 35만 ~ 50만 원 [cite: 22, 23] |\n| **연 매출 3억~5억 원 미만** | 15만 ~ 20만 원 [cite: 21, 23] | 25만 ~ 35만 원 [cite: 21, 23] | 20만 ~ 30만 원 [cite: 16] | 50만 ~ 65만 원 [cite: 22, 23] |\n| **연 매출 5억~10억 원 미만** | 20만 ~ 25만 원 [cite: 21, 23] | 30만 ~ 40만 원 [cite: 21, 23] | 별도 협의 / 기장 전환 [cite: 14] | 80만 ~ 100만 원 [cite: 22, 23] |\n| **모바일/플랫폼형 (쎔, 삼쩜삼 등)**| 월 3.3만 원 또는 건당 3.3만 원 (정액제) [cite: 9] | - | 건당 3.3만 원 또는 환급액/매출 비례 (정률제) [cite: 9] | 플랫폼 내 별도 요금 산정 |\n\n수수료 가격 산정 시 고려되는 세부 요인으로는 매출 규모 외에 매출 증빙의 다양성(배달 앱, 이커머스, 해외 카드 등), 매입세액 공제 판정의 난이도, 영세율 적용 여부, 과세 및 면세 겸영 여부, 직원 인건비 및 4대 보험 관리 인원수가 포함된다 [cite: 14, 16].\n\n최근 세무 테크 플랫폼이나 일부 사무소에서 제시하는 '월 3.3만 원 초저가 기장'은 초기에 사업자를 유인하기 위한 가격 정책인 경우가 많다 [cite: 20, 22]. 세무대행 계약 시 월 기장료 외에 부가가치세 신고비용, 원천세 신고비용, 연말정산 수수료, 종합소득세 세무조정료가 별도로 청구되는지 미리 확인하지 않으면 연간 총 부담 비용 측면에서 차이가 없거나 오히려 과도한 지출이 발생할 수 있다 [cite: 20, 21]. 아울러 저가 수수료 구조에서는 개별 사업장에 대한 인적 세무 검증이 부실해질 수 있어, 매입세액 공제 누락이나 세무조사 리스크에 노출될 위험이 존재한다 [cite: 14, 20].\n\n## 4. 경쟁 시장 지형 및 주요 플레이어 분석\n\n국내 소규모 사업자 세무 대행 시장은 전통적인 세무법인 및 개인 세무사 사무소, IT 기술과 전문 세무 조직을 결합한 하이브리드 세무 테크 기업, 그리고 모바일 UX에 기반한 순수 B2C 세무 플랫폼의 3자 경쟁 체제로 운영되고 있다 [cite: 9, 10, 25, 26].\n\n세무법인 다솔, 광교, 비앤에이치, 세람택스 등으로 대표되는 전통 세무법인 및 전문 사무소는 대면 상담 중심의 밀착형 절세 컨설팅과 복잡한 세무 조사 대응을 강점으로 고소득 개인사업자 및 중소기업 시장을 공고히 점유하고 있다 [cite: 10, 11, 13]. 이에 맞서 혜움랩스(혜움)와 같은 하이브리드 세무 테크 기업은 IT 연구소 기반의 기술력을 바탕으로 사업자 전용 세무·재무 관리 시스템인 '혜움 레포트 2.0'과 경정청구 서비스 '더낸세금'을 제공하고 있다 [cite: 25, 26]. 혜움은 2025년 4월 IBK기업은행, 키움인베스트먼트, 쿼드벤처스 등으로부터 105억 원 규모의 시리즈B 투자를 유치하며 누적 투자금 210억 원을 기록하였고, 중소벤처기업부 '2024 초격차 스타트업'에 선정되어 실행과 추론이 모두 가능한 금융 에이전틱 AI 고도화에 집중하고 있다 [cite: 25, 26, 27].\n\n순수 B2C 세무 플랫폼 영역에서는 자비스앤빌런즈가 운영하는 '삼쩜삼'과 널리소프트의 '쎔(SSEM)'이 시장을 이끌고 있다 [cite: 9]. 삼쩜삼은 프리랜서 및 N잡러의 종합소득세 환급 서비스를 기반으로 2025년 기준 누적 가입자 2,400만 명과 누적 환급액 2조 원을 돌파하였으며, 개인사업자 대상 세무 서비스인 '삼쩜삼 마이비즈' 및 부가가치세 신고 지원 서비스로 영역을 넓혀 2025년 매출액 756억 원, 영업이익 33.8억 원을 달성하였다 [cite: 28, 29]. 반면 쎔(SSEM)은 영업장을 운영하는 개인사업자를 주요 타깃으로 삼아 부가가치세 및 종합소득세 신고를 건당 33,000원이라는 저렴한 정액 수수료로 처리할 수 있도록 지원하며 영세 사업자 층을 빠르게 흡수하였다 [cite: 9].\n\n| 분석 항목 | 전통 세무법인 (광교, 다솔 등) | 혜움 (Haeum) | 삼쩜삼 (자비스앤빌런즈) | 쎔 (SSEM) |\n| :--- | :--- | :--- | :--- | :--- |\n| **주요 타깃** | 중견/중소기업, 고소득 개인사업자 [cite: 10, 11] | 소상공인, 스타트업, 중소기업 [cite: 25, 26] | 프리랜서, N잡러, 소규모 사업자 [cite: 9, 29] | 개인사업자, 자영업자 [cite: 9] |\n| **수수료 체계** | 월 기장료 + 세무조정료 (고가/고품질) [cite: 16, 23] | 월 기장료 연동 구독형 서비스 [cite: 25] | 환급액/매출 비례 정률제 [cite: 9] | 부가세/종소세 건당 33,000원 정액제 [cite: 9] |\n| **핵심 경쟁력** | 전문성, 세무조사 대응, 절세 자문 [cite: 13, 23] | AI 레포트, AI 에이전트, 세무사 연계 [cite: 25, 26] | 압도적 가입자(2,400만), 모바일 UX [cite: 29] | 저렴한 정액 수수료, 직관적 UI [cite: 9] |\n| **주요 재무/실적** | 상위권 연 매출 400억 원대 [cite: 10, 11, 12] | 누적 투자 유치액 210억 원 [cite: 25, 26] | 2025년 매출액 756억 원 [cite: 28] | 개인사업자 부가세 신고 시장 안착 [cite: 9] |\n\n세무 테크 플랫폼의 시장 확장에 따라 법적·제도적 마찰도 격화되었다 [cite: 30, 31, 32]. 한국세무사회는 삼쩜삼 등 플랫폼 기업들이 세무사 자격 없이 세무대리를 수행하고 세무사를 알선·소개했다며 세무사법 위반 혐의로 경찰과 검찰에 지속적으로 고발을 제기하였다 [cite: 30, 31, 32]. 그러나 대검찰청은 2025년 5월 한국세무사회가 제기한 삼쩜삼의 세무사법 위반 재항고 사건을 기각함으로써, 약 4년간 이어진 형사상 무혐의 처분을 최종 확정하였다 [cite: 30, 33, 34].\n\n형사적 무혐의와는 별개로, 소비자의 오인을 유발하는 과장 광고 및 표시광고법 위반에 대한 규제 수위는 한층 강화되고 있다. 공정거래위원회는 삼쩜삼의 거짓·과장 광고 행위에 대해 시정명령과 함께 7,100만 원의 과징금을 부과한 바 있으며, 세무사회는 부당 공제 적용 표시 및 후기 조작 정황 등을 근거로 공정위에 2차 신고를 접수하였다 [cite: 35, 36]. \n\n더욱이 2026년 6월 24일부터 무자격자의 세무대리 오인 광고 및 부당한 환급 기대를 유발하는 광고를 엄격히 금지하는 개정 세무사법 및 시행령이 전면 시행된다 [cite: 35, 37]. 이에 따라 '최대 환급 보장', '무조건 환급', '환급률 1위' 등의 표현이 엄격히 제한되며, 플랫폼 기업들은 자율적인 광고 시정과 세무 대리 주체의 명확한 표기 의무를 준수해야 하는 규제 환경에 직면해 있다 [cite: 35, 37].\n\n## 5. 세무·회계 분야 AI 도입 사례 및 파급 효과\n\n세무·회계 분야의 인공지능 도입은 수작업 자동화 수준을 넘어 세법 해석, 데이터 정합성 검증, 실시간 경영 컨설팅을 자율적으로 실행하는 에이전틱 AI 단계로 진화하고 있다 [cite: 25, 38].\n\n국내 대표 회계 소프트웨어 기업인 더존비즈온은 세무사무소용 클라우드 플랫폼 'WEHAGO T'에 생성형 AI 솔루션인 'ONE AI'를 결합하여 실무 현장의 혁신을 이끌고 있다 [cite: 19, 38, 39]. ONE AI는 최신 세법, 예규, 판례 데이터를 RAG(검색증강생성) 기술로 연동하여 실무자의 질문에 법적 근거를 바탕으로 정확히 답변하는 'AI 세법 도우미' 기능을 제공한다 [cite: 38]. 또한 Function Call 기술을 탑재하여 사용자가 음성이나 텍스트로 명령하면 국세청 홈택스 시스템과 직접 연동되어 소득금액증명원, 부가가치세 과세표준증명 등 민원 서류를 발급하고 팩스나 이메일로 자동 전송한다 [cite: 38]. 이와 함께 회계 처리된 자산 중 고정자산 누락 건 감지, 동일 거래처의 채권·채무 계정 상계 검토, 전년 대비 이상 변동 계정과목 추출 등 데이터 정합성 검증을 자동 수행하여 신고 오류를 최소화한다 [cite: 38].\n\n전문 세무 테크 기업들 역시 자사 특화 AI 기술을 현장에 적극 도입하고 있다. 혜움랩스는 단순 업무 처리를 넘어 사업자의 미수금 및 미지급금 관리, 세무 리스크 추론, 절세 시나리오 작성을 수행하는 금융 AI 에이전트를 구축하고 있다 [cite: 25]. 클로브AI(Clobe AI)와 Lido OCR 솔루션은 종이 영수증 및 PDF 세금계산서의 사업자등록번호, 공급가액, 세액을 스캔하여 ERP 포맷으로 자동 변환·매칭함으로써 매입 자료 정리 시간을 기존 2시간에서 5분 이내로 절감시켰다 [cite: 6, 18]. WAA(Work AI Automation) 솔루션은 홈택스 세금계산서 및 카드 매출 내역의 수집·엑셀 정리를 자동화하여 세무사무소의 데이터 정리 시간을 70% 이상 단축시켰다 [cite: 17].\n\nAI 기술의 급격한 침투는 세무·회계 시장에 세 가지 차원의 파급 효과를 야기하고 있다. \n\n첫째, 정형화된 단순 기장 및 부가가치세 입력 업무의 한계 비용이 0에 수렴함에 따라 기초 대행 수수료의 하락 압력(Fee Erosion)이 가속화되고 있다 [cite: 9, 16, 17].\n\n둘째, 세무 전문가의 역할 변화와 서비스 양극화이다. 수납 및 입력 업무 시간이 80% 이상 절감됨에 따라 세무사들은 단순 작성자에서 벗어나 가업 승계, 상속·증여, 법인 전환, 세무 조사 대응, 투자 유치 자문 등 고부가가치 절세 컨설팅으로 비즈니스 중심축을 이동시키고 있다 [cite: 13, 17, 19].\n\n셋째, 플랫폼과 세무 전문가의 공존 및 하이브리드 결합이다. 대립적 관계를 벗어나 AI 플랫폼이 1차 데이터 수집·파싱·오류 검증을 담당하고, 협력 세무사가 최종 세무 판단 및 고도화된 컨설팅을 제공하는 하이브리드 세무 서비스 모델이 시장의 새로운 표준으로 확립되고 있다 [cite: 19, 25].\n\n## 6. 결론 및 향후 전망\n\n한국 소규모 사업자 부가가치세 신고 대행 및 세무·회계 시장은 기술 발전, 규제 변화, 시장 수요의 고도화가 결합되며 중대한 구조적 전환점을 지나고 있다.\n\n간이과세 적용 기준의 연 매출 1억 400만 원 상향 조치는 영세 사업자의 부가가치세 직접 세 부담을 줄여주었으나, 세금계산서 발급 의무 확대와 과세 관청의 전산 검증망 고도화로 인해 체계적인 세무 관리 및 매입세액 공제 검토에 대한 전문성 수요는 오히려 증대되었다 [cite: 2, 3, 5].\n\n경쟁 환경 측면에서는 세무 플랫폼에 대한 세무사법 위반 형사상 무혐의 처분이 확정되면서 기술 기반 세무 대행이 시장의 주요 축으로 인정받게 되었다 [cite: 30, 34]. 그러나 2026년 6월 시행되는 개정 세무사법에 따라 소비자 오인 광고 및 과장 마케팅에 대한 사법적·행정적 규제가 대폭 강화되므로, 시장은 단순 가격 경쟁 및 이용자 유치 단계에서 '서비스의 정확성과 세무 리스크 관리의 질적 경쟁' 단계로 전환될 것이다 [cite: 35, 37].\n\n향후 세무·회계 시장에서 주도권을 확보하기 위해서는 에이전틱 AI 솔루션을 통한 내부 운영 효율화와 함께, 세무 전문가에 의한 정밀 검증 체계를 조화롭게 결합해야 한다. 세무 테크 기업과 전통 세무업계 모두 단순 신고 대행을 넘어 소규모 사업자의 경영·재무 상태를 종합적으로 자문하는 '데이터 기반 전문 파트너'로 발전하는 것이 지속 가능한 성장의 핵심 과제가 될 것이다 [cite: 19, 25].\n\n---\n\n1. [세미콜론] 개인사업자 4명 중 1명은 '간이과세'…배제지역 축소에 더 늘어난다 - 세정일보, [https://www.sejungilbo.com/news/articleView.html?idxno=58048](https://www.sejungilbo.com/news/articleView.html?idxno=58048)\n2. 개인신고안내 - 부가가치세 - 기본정보 - 국세청, [https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272)\n3. 일반과세자, 간이과세자 기준ㅣ내 사업에 유리한 과세 유형은? - KB의 생각, [https://kbthink.com/biz-tax/taxpayer-types.html](https://kbthink.com/biz-tax/taxpayer-types.html)\n4. 간이과세자 일반과세자 기준과 부가세 - 세무상담, [https://www.findsemusa.com/service/post/postView.do?stype=30&qidx=559](https://www.findsemusa.com/service/post/postView.do?stype=30&qidx=559)\n5. 국세청 사업자 등록 의무 세액계산 방법, [https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806)\n6. 부가가치세 신고 자동화 가이드 (2026 부가세 신고 효율화) - Lido, [https://www.lido.app/kr/bugaga-chise-singo](https://www.lido.app/kr/bugaga-chise-singo)\n7. 지난해 국내 회계법인 매출 6조 돌파…세무 등 비감사부문 견인, [https://www.taxtimes.co.kr/news/article.html?no=272534](https://www.taxtimes.co.kr/news/article.html?no=272534)\n8. 세무자문 성장…빅4 회계법인 총매출 3조 첫 돌파 - 매일경제, [https://www.mk.co.kr/news/stock/12165278](https://www.mk.co.kr/news/stock/12165278)\n9. 쎔과 삼쩜삼은 뭐가 다를까 - IT조선, [https://it.chosun.com/news/articleView.html?idxno=2023092111559](https://it.chosun.com/news/articleView.html?idxno=2023092111559)\n10. [리그테이블]2025년 세무법인 매출 TOP20 집중 분석 - 택스워치, [https://www.taxwatch.co.kr/article/tax/2025/07/10/0002](https://www.taxwatch.co.kr/article/tax/2025/07/10/0002)\n11. 세무법인 매출 순위 TOP100 분석 - 택스워치, [https://www.taxwatch.co.kr/article/tax/2025/02/18/0002](https://www.taxwatch.co.kr/article/tax/2025/02/18/0002)\n12. [리그테이블]2025년 세무법인 매출 TOP20(업데이트 ver.) > 소식자료, [https://dasoltax.com/board/press/59](https://dasoltax.com/board/press/59)\n13. 세람택스, 매출 94억…개인 세무사 사무소 '전국 1위' - 포브스코리아, [https://www.forbeskorea.co.kr/news/articleView.html?idxno=401348](https://www.forbeskorea.co.kr/news/articleView.html?idxno=401348)\n14. 부가세 신고대행 비용, 세무사 수수료는 어떻게 정해질까?, [https://savingtax.kr/blog/tax/tax-accountant-fee-vat-filing](https://savingtax.kr/blog/tax/tax-accountant-fee-vat-filing)\n15. 신고대행 - 미래세무회계사무소, [http://www.tax5400.co.kr/page/info02](http://www.tax5400.co.kr/page/info02)\n16. 세무사 기장료는 보통 얼마인가요? - 세무통, [https://www.semutong.com/tax-answers/%EC%84%B8%EB%AC%B4%EC%82%AC-%EA%B8%B0%EC%9E%A5%EB%A3%8C-%EC%8B%9C%EC%84%B8](https://www.semutong.com/tax-answers/%EC%84%B8%EB%AC%B4%EC%82%AC-%EA%B8%B0%EC%9E%A5%EB%A3%8C-%EC%8B%9C%EC%84%B8)\n17. [자동화 사례] 세무 사무실 기장대행 자동화 - SAP 컨설팅 & ITO 서비스 - ASPN, [https://blog.aspn.co.kr/tax-bookkeeping-automation](https://blog.aspn.co.kr/tax-bookkeeping-automation)\n18. 세무자료 제출 자동화, 매달 반복되는 자료 요청을 없애는 방법 - 클로브AI, [https://clobe.ai/blog/tax-document-submission-automation](https://clobe.ai/blog/tax-document-submission-automation)\n19. [더존 로드쇼 현장에서]\"ONE AI는 세무사·회계사 서포트하는 도구\" - 한국세정신문, [https://www.taxtimes.co.kr/news/article.html?no=266650](https://www.taxtimes.co.kr/news/article.html?no=266650)\n20. 세무대행(기장대행) 비용 총정리 (2026): 월 기장료·조정료 적정선은? - 클로브AI, [https://clobe.ai/blog/tax-agency-bookkeeping-cost-guide-2026](https://clobe.ai/blog/tax-agency-bookkeeping-cost-guide-2026)\n21. 세무사 기장료, 월 얼마가 적정한가요? 2026 업종별 시세 | CTK 세무 블로그, [https://ctk-app.com/blog/accountant-bookkeeping-fee-2026](https://ctk-app.com/blog/accountant-bookkeeping-fee-2026)\n22. 일반 회계사무실의 1/2 가격 - 모바일택스, [https://mobiletax.kr/pricing](https://mobiletax.kr/pricing)\n23. 세무사 보수표·기장료 가격 안내 | 다원세무회계 - 투명 가격 공개, 사전 견적, [https://enjoytax.net/pricing](https://enjoytax.net/pricing)\n24. 한경세무회계 수수료요율표 (2026년 기장대행, 결산세무조정료 등), [https://www.protax.co.kr/plan](https://www.protax.co.kr/plan)\n25. 혜움, 시리즈B 투자 유치, [https://www.heumtax.com/contents/posts/heum-series-b-funding](https://www.heumtax.com/contents/posts/heum-series-b-funding)\n26. 혜움, 105억원 규모 시리즈B 투자유치 - 바이라인네트워크, [https://byline.network/2025/04/08-166/](https://byline.network/2025/04/08-166/)\n27. 혜움, 105억원 규모 시리즈B 투자유치…누적 투자액 210억원 - 와우테일, [https://wowtale.net/2025/04/08/239478/](https://wowtale.net/2025/04/08/239478/)\n28. (주)자비스앤빌런즈 2025년 재무정보 - 사람인, [https://www.saramin.co.kr/zf_user/company-info/view-inner-finance/csn/cjVJcldHbUhIZ041RGRZQ0tIV240Zz09/company_nm/(%EC%A3%BC)%EC%9E%90%EB%B9%84%EC%8A%A4%EC%95%A4%EB%B9%8C%EB%9F%B0%EC%A6%88](https://www.saramin.co.kr/zf_user/company-info/view-inner-finance/csn/cjVJcldHbUhIZ041RGRZQ0tIV240Zz09/company_nm/(%EC%A3%BC)%EC%9E%90%EB%B9%84%EC%8A%A4%EC%95%A4%EB%B9%8C%EB%9F%B0%EC%A6%88)\n29. 자비스앤빌런즈 | 삼쩜삼, [https://jobisnvillains.com/](https://jobisnvillains.com/)\n30. 삼쩜삼 불법 세무대리 의혹 벗었다…대검, 세무사회 재항고 기각 - 유니콘팩토리, [https://www.unicornfactory.co.kr/article/2025061210010310360](https://www.unicornfactory.co.kr/article/2025061210010310360)\n31. 한국세무사회, '삼쩜삼 고발 건 경찰 불송치 결정' 유감 표명 - 테크42, [https://www.tech42.co.kr/%ED%95%9C%EA%B5%AD%EC%84%B8%EB%AC%B4%EC%82%AC%ED%9A%8C-%EC%82%BC%EC%A9%9C%EC%82%BC-%EA%B3%A0%EB%B0%9C-%EA%B1%B4-%EA%B2%BD%EC%B0%B0-%EB%B6%88%EC%86%A1%EC%B9%98-%EA%B2%B0%EC%A0%95/](https://www.tech42.co.kr/%ED%95%9C%EA%B5%AD%EC%84%B8%EB%AC%B4%EC%82%AC%ED%9A%8C-%EC%82%BC%EC%A9%9C%EC%82%BC-%EA%B3%A0%EB%B0%9C-%EA%B1%B4-%EA%B2%BD%EC%B0%B0-%EB%B6%88%EC%86%A1%EC%B9%98-%EA%B2%B0%EC%A0%95/)\n32. 세무사회 “삼쩜삼에 대한 추가 고발 건 등 3건의 사법리스크 지속 중” - 조세플러스, [https://joseplus.com/article/1065602234886120](https://joseplus.com/article/1065602234886120)\n33. 삼쩜삼, 법적 공방 종결…대검, 세무사회 재항고 기각, [https://blog.3o3.co.kr/250612-news/](https://blog.3o3.co.kr/250612-news/)\n34. 삼쩜삼, '불법 세무대리' 의혹 벗었다···세무사회 \"대단히 유감\" - 한경매거진&북, [https://magazine.hankyung.com/business/article/202506121252b](https://magazine.hankyung.com/business/article/202506121252b)\n35. \"평균 28만원 환급\" 또 논란.. 세무사회, 삼쩜삼 거짓⋅기만광고 공정위 2차 신고, [https://www.kacpta.or.kr/notice_view/not_press/Josenews.asp?mode=view&GotoPage=1&bbs_key=625](https://www.kacpta.or.kr/notice_view/not_press/Josenews.asp?mode=view&GotoPage=1&bbs_key=625)\n36. 작년 공정위 제재받은 삼쩜삼…세무사회, 공정위에 또 신고 - 한국세정신문, [https://taxtimes.co.kr/news/article.html?no=275342](https://taxtimes.co.kr/news/article.html?no=275342)\n37. 한국세무사회, 세무플랫폼에 불법 세무대리 오인 광고 자진 시정 최후통첩, [https://webzine.kacta.or.kr/news/articleView.html?idxno=25405](https://webzine.kacta.or.kr/news/articleView.html?idxno=25405)\n38. 세무회계사무소를 위한 혁신적인 AI 서비스 - ONE AI - WEHAGO T, [https://www.wehagot.com/landingt/oneai/](https://www.wehagot.com/landingt/oneai/)\n39. 사람이 하는 세무회계? 이젠 인공지능으로 | 자유게시판 | 커뮤니티 - 중부대학교, [https://www.joongbu.ac.kr/board.es?mid=f60502000000&bid=0185&act=view&list_no=310856&tag=&nPage=102](https://www.joongbu.ac.kr/board.es?mid=f60502000000&bid=0185&act=view&list_no=310856&tag=&nPage=102)\n"
+    },
+    {
+      "url": "https://www.lido.app/kr/bugaga-chise-singo",
+      "title": "부가가치세 신고 자동화 가이드 (2026 부가세 신고 효율화) - Lido",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 1,
+      "hint": "Provides comprehensive, highly relevant info on processes and tools."
+    },
+    {
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092111559",
+      "title": "쎔과 삼쩜삼은 뭐가 다를까 - IT조선",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 2,
+      "hint": "Directly compares key tax-tech competitors and pricing models."
+    },
+    {
+      "url": "https://clobe.ai/blog/tax-agency-bookkeeping-cost-guide-2026",
+      "title": "세무대행(기장대행) 비용 총정리 (2026): 월 기장료·조정료 적정선은? - 클로브AI",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 3,
+      "hint": "Offers detailed market pricing for Korean tax agency services."
+    },
+    {
+      "url": "https://kbthink.com/biz-tax/taxpayer-types.html",
+      "title": "일반과세자, 간이과세자 기준ㅣ내 사업에 유리한 과세 유형은? - KB의 생각",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 4,
+      "hint": "Clear explanation of small business VAT criteria and differences."
+    },
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806",
+      "title": "국세청 사업자 등록 의무 세액계산 방법",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 5,
+      "hint": "Official IRS source with authoritative VAT calculation guidelines."
+    },
+    {
+      "url": "https://www.semutong.com/tax-answers/%EC%84%B8%EB%AC%B4%EC%82%AC-%EA%B8%B0%EC%9E%A5%EB%A3%8C-%EC%8B%9C%EC%84%B8",
+      "title": "세무사 기장료는 보통 얼마인가요? - 세무통",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 6,
+      "hint": "Gives concrete market rates for bookkeeping and filing fees."
+    },
+    {
+      "url": "https://www.heumtax.com/contents/posts/heum-series-b-funding",
+      "title": "혜움, 시리즈B 투자 유치",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 7,
+      "hint": "Valuable case study on Heum's AI funding and services."
+    },
+    {
+      "url": "https://ctk-app.com/blog/accountant-bookkeeping-fee-2026",
+      "title": "세무사 기장료, 월 얼마가 적정한가요? 2026 업종별 시세 | CTK 세무 블로그",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 8,
+      "hint": "Breakdown of 2026 market fee structures by revenue."
+    },
+    {
+      "url": "https://www.wehagot.com/landingt/oneai/",
+      "title": "세무회계사무소를 위한 혁신적인 AI 서비스 - ONE AI - WEHAGO T",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 9,
+      "hint": "Illustrates AI adoption examples with Douzone ONE AI features."
+    },
+    {
+      "url": "https://www.taxtimes.co.kr/news/article.html?no=266650",
+      "title": "[더존 로드쇼 현장에서]\"ONE AI는 세무사·회계사 서포트하는 도구\" - 한국세정신문",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 10,
+      "hint": "Shows industry trend of AI adoption in tax accounting."
+    },
+    {
+      "url": "https://jobisnvillains.com/",
+      "title": "자비스앤빌런즈 | 삼쩜삼",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 11,
+      "hint": "Official growth stats and history of Jobis & Villains."
+    },
+    {
+      "url": "https://www.unicornfactory.co.kr/article/2025061210010310360",
+      "title": "삼쩜삼 불법 세무대리 의혹 벗었다…대검, 세무사회 재항고 기각 - 유니콘팩토리",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 12,
+      "hint": "Key regulatory update on Sam3Sam legal dispute resolution."
+    },
+    {
+      "url": "https://blog.aspn.co.kr/tax-bookkeeping-automation",
+      "title": "[자동화 사례] 세무 사무실 기장대행 자동화 - SAP 컨설팅 & ITO 서비스 - ASPN",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 13,
+      "hint": "Details practical automation workflows and timesaving AI metrics."
+    },
+    {
+      "url": "https://clobe.ai/blog/tax-document-submission-automation",
+      "title": "세무자료 제출 자동화, 매달 반복되는 자료 요청을 없애는 방법 - 클로브AI",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 14,
+      "hint": "Shows specific time-saving metrics through tax document automation."
+    },
+    {
+      "url": "https://enjoytax.net/pricing",
+      "title": "세무사 보수표·기장료 가격 안내 | 다원세무회계 - 투명 가격 공개, 사전 견적",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 15,
+      "hint": "Provides real-world market price schedule from a tax firm."
+    },
+    {
+      "url": "https://mobiletax.kr/pricing",
+      "title": "일반 회계사무실의 1/2 가격 - 모바일택스",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 16,
+      "hint": "Detailed fee schedule for online tax bookkeeping services."
+    },
+    {
+      "url": "https://savingtax.kr/blog/tax/tax-accountant-fee-vat-filing",
+      "title": "부가세 신고대행 비용, 세무사 수수료는 어떻게 정해질까?",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 17,
+      "hint": "Explains factors determining VAT filing fees for small business."
+    },
+    {
+      "url": "https://www.protax.co.kr/plan",
+      "title": "한경세무회계 수수료요율표 (2026년 기장대행, 결산세무조정료 등)",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 18,
+      "hint": "Gives structured fee tables for bookkeeping and adjustment."
+    },
+    {
+      "url": "https://www.taxwatch.co.kr/article/tax/2025/02/18/0002",
+      "title": "세무법인 매출 순위 TOP100 분석 - 택스워치",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 19,
+      "hint": "Market size and ranking data for top tax firms."
+    },
+    {
+      "url": "https://www.taxwatch.co.kr/article/tax/2025/07/10/0002",
+      "title": "[리그테이블]2025년 세무법인 매출 TOP20 집중 분석 - 택스워치",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 20,
+      "hint": "Top 20 tax firm sales figures establishing market scale."
+    },
+    {
+      "url": "https://dasoltax.com/board/press/59",
+      "title": "[리그테이블]2025년 세무법인 매출 TOP20(업데이트 ver.) > 소식자료",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 21,
+      "hint": "Top tax firm revenue update reflecting market leadership."
+    },
+    {
+      "url": "https://www.forbeskorea.co.kr/news/articleView.html?idxno=401348",
+      "title": "세람택스, 매출 94억…개인 세무사 사무소 '전국 1위' - 포브스코리아",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 22,
+      "hint": "Highlights revenue data for top individual tax offices."
+    },
+    {
+      "url": "https://www.sejungilbo.com/news/articleView.html?idxno=58048",
+      "title": "[세미콜론] 개인사업자 4명 중 1명은 '간이과세'…배제지역 축소에 더 늘어난다 - 세정일보",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 23,
+      "hint": "Context on small business VAT simplified taxation proportions."
+    },
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272",
+      "title": "개인신고안내 - 부가가치세 - 기본정보 - 국세청",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 24,
+      "hint": "Official IRS criteria for small business simplified taxation."
+    },
+    {
+      "url": "https://webzine.kacta.or.kr/news/articleView.html?idxno=25405",
+      "title": "한국세무사회, 세무플랫폼에 불법 세무대리 오인 광고 자진 시정 최후통첩",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 25,
+      "hint": "Details tax association warnings against misleading platform ads."
+    },
+    {
+      "url": "https://taxtimes.co.kr/news/article.html?no=275342",
+      "title": "작년 공정위 제재받은 삼쩜삼…세무사회, 공정위에 또 신고 - 한국세정신문",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 26,
+      "hint": "Reports on legal disputes over platform tax advertisements."
+    },
+    {
+      "url": "https://www.kacpta.or.kr/notice_view/not_press/Josenews.asp?mode=view&GotoPage=1&bbs_key=625",
+      "title": "\"평균 28만원 환급\" 또 논란.. 세무사회, 삼쩜삼 거짓⋅기만광고 공정위 2차 신고",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 27,
+      "hint": "Details tax association complaints regarding platform advertising."
+    },
+    {
+      "url": "https://joseplus.com/article/1065602234886120",
+      "title": "세무사회 “삼쩜삼에 대한 추가 고발 건 등 3건의 사법리스크 지속 중” - 조세플러스",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 28,
+      "hint": "Provides background on legal conflicts between tax platforms."
+    },
+    {
+      "url": "https://www.tech42.co.kr/%ED%95%9C%EA%B5%AD%EC%84%B8%EB%AC%B4%EC%82%AC%ED%9A%8C-%EC%82%BC%EC%A9%9C%EC%82%BC-%EA%B3%A0%EB%B0%9C-%EA%B1%B4-%EA%B2%BD%EC%B0%B0-%EB%B6%88%EC%86%A1%EC%B9%98-%EA%B2%B0%EC%A0%95/",
+      "title": "한국세무사회, '삼쩜삼 고발 건 경찰 불송치 결정' 유감 표명 - 테크42",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 29,
+      "hint": "Covers tax association statements regarding platform regulation."
+    },
+    {
+      "url": "https://blog.3o3.co.kr/250612-news/",
+      "title": "삼쩜삼, 법적 공방 종결…대검, 세무사회 재항고 기각",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 30,
+      "hint": "Brief press release statement on court ruling outcome."
+    },
+    {
+      "url": "https://magazine.hankyung.com/business/article/202506121252b",
+      "title": "삼쩜삼, '불법 세무대리' 의혹 벗었다···세무사회 \"대단히 유감\" - 한경매거진&북",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 31,
+      "hint": "Short news coverage on Sam3Sam legal outcome."
+    },
+    {
+      "url": "https://byline.network/2025/04/08-166/",
+      "title": "혜움, 105억원 규모 시리즈B 투자유치 - 바이라인네트워크",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 32,
+      "hint": "Brief news snippet on Heum's Series B investment."
+    },
+    {
+      "url": "https://wowtale.net/2025/04/08/239478/",
+      "title": "혜움, 105억원 규모 시리즈B 투자유치…누적 투자액 210억원 - 와우테일",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 33,
+      "hint": "Duplicate news coverage on Heum Series B funding."
+    },
+    {
+      "url": "https://www.findsemusa.com/service/post/postView.do?stype=30&qidx=559",
+      "title": "간이과세자 일반과세자 기준과 부가세 - 세무상담",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 34,
+      "hint": "Basic introductory article on simplified tax threshold changes."
+    },
+    {
+      "url": "http://www.tax5400.co.kr/page/info02",
+      "title": "신고대행 - 미래세무회계사무소",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 35,
+      "hint": "Standard price page for a single local tax office."
+    },
+    {
+      "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-finance/csn/cjVJcldHbUhIZ041RGRZQ0tIV240Zz09/company_nm/(%EC%A3%BC)%EC%9E%90%EB%B9%84%EC%8A%A4%EC%95%A4%EB%B9%8C%EB%9F%B0%EC%A6%88",
+      "title": "(주)자비스앤빌런즈 2025년 재무정보 - 사람인",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 36,
+      "hint": "Raw financial stats for Jobis & Villains."
+    },
+    {
+      "url": "https://www.joongbu.ac.kr/board.es?mid=f60502000000&bid=0185&act=view&list_no=310856&tag=&nPage=102",
+      "title": "사람이 하는 세무회계? 이젠 인공지능으로 | 자유게시판 | 커뮤니티 - 중부대학교",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 37,
+      "hint": "University board repost of Douzone AI roadshow."
+    },
+    {
+      "url": "https://www.mk.co.kr/news/stock/12165278",
+      "title": "세무자문 성장…빅4 회계법인 총매출 3조 첫 돌파 - 매일경제",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 38,
+      "hint": "Covers Big 4 accounting firms rather than small business."
+    },
+    {
+      "url": "https://www.taxtimes.co.kr/news/article.html?no=272534",
+      "title": "지난해 국내 회계법인 매출 6조 돌파…세무 등 비감사부문 견인",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55",
+      "source_ordinal": 39,
+      "hint": "Focuses broadly on total accounting firm revenue nationwide."
+    },
+    {
+      "url": "https://taxoffice.co.kr/sub/?cat_no=29",
+      "title": "업무보수표 - 세림세무법인",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://news.bizwatch.co.kr/article/tax/2017/01/11/0020",
+      "title": "세무법인 매출 1위는 어디일까 - 비즈워치",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://mybiz.pay.naver.com/contentsGuide/1210/TAX_ALL/regYmdt",
+      "title": "사업자등록, 일반과세로 할까? 간이과세로 할까? - NAVER",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://www.help-me.kr/blog/article/%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%B6%80%EA%B0%80%EC%84%B8-%EA%B0%9C%EB%85%90-%EC%8B%A0%EA%B3%A0-%EA%B8%B0%EA%B0%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+      "title": "개인사업자를 위한 부가세 개념, 세율, 신고기간 총정리",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://www.iljarihub.or.kr/wescmobile/bbs/B0000024/view.do?nttId=8295&menuNo=300117&pageIndex=1",
+      "title": "간이, 일반과세자 구분하기와 부가가치세 궁금증 해소하기 - 우수 상담사례(상세) | 경영애로지원단 | 여성기업 일자리허브",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://www.gnsiminsori.com/news/articleView.html?idxno=35076",
+      "title": "[임선아 세무칼럼(7)] 간이과세자도 부가세 신고해야 하나요? 헷갈리기 쉬운 부가세 상식 정리",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://www.valuetax.co.kr/%EC%9D%BC%EB%B0%98%EA%B3%BC%EC%84%B8%EC%9E%90-%EA%B0%84%EC%9D%B4%EA%B3%BC%EC%84%B8%EC%9E%90-%EC%B0%A8%EC%9D%B4-%EC%82%AC%EC%97%85%EC%9D%84-%EC%9A%B4%EC%98%81%ED%95%98%EC%8B%A0%EB%8B%A4%EB%A9%B4/",
+      "title": "일반과세자 간이과세자 차이, 사업을 운영하신다면 필독 - 세무법인 가치",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693",
+      "title": "부가가치세란 상품(재화)의 거래나 서비스(용역)의 제공과정에서 얻어지는 부가가치(이윤)에 대하여 과세하는 세금이며, 사업자가 납부하는 부가가치세는 매출세액에서 매입세액을 차감하여 계산합니다. - 국세청",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://www.yna.co.kr/view/AKR20250612106900004",
+      "title": "삼쩜삼 \"'불법 세무대리' 의혹 벗었다…세무사회 재항고 기각\" - 연합뉴스",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://www.intn.co.kr/news/articleView.html?idxno=2044062",
+      "title": "세무사회 “삼쩜삼 사법조치 끝까지 간다”…아직도 3건 수사 중 - 일간NTN",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://thevc.kr/jobisnvillains",
+      "title": "자비스앤빌런즈(삼쩜삼) - 기업정보 | 투자, 매출, 기업가치 - 더브이씨 (THE VC)",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    },
+    {
+      "url": "https://thevc.kr/alfred-1",
+      "title": "알프레드(혜움레포트) - 기업정보 | 투자, 매출, 기업가치 - 더브이씨 (THE VC)",
+      "result_type": 1,
+      "research_task_id": "818888b6-d90e-4bcd-82f8-1a8090317a55"
+    }
+  ],
+  "report": "# 한국 소규모 사업자 부가가치세 신고 대행 및 세무·회계 시장 종합 분석 보고서\n\n## 1. 세무·회계 시장 구조 및 소규모 사업자 부가가치세 신고 대행 시장 규모\n\n국내 세무·회계 시장은 개인사업자의 지속적인 증가와 세법 환경의 복잡화, 그리고 세무 테크(TaxTech) 플랫폼의 급격한 침투로 인해 근본적인 구조 재편을 겪고 있다. 2024년 기준 국내 개인사업자 수는 8,797,467명에 달하며, 이 가운데 소규모 과세 특례 대상인 간이과세자는 2,225,573명으로 전체 개인사업자의 25.3%를 차지하고 있다 [cite: 1]. \n\n정부는 영세 자영업자의 세 부담 완화 및 납세 편의 제고를 목적으로 간이과세 적용 기준 매출액을 기존 연 4,800만 원에서 8,000만 원으로 인상한 데 이어, 2024년부터 연 매출 1억 400만 원 미만으로 대폭 상향 조정하였다 [cite: 1, 2, 3, 4]. 이러한 제도적 변화는 간이과세 대상을 대폭 넓혔으나, 연 매출 4,800만 원 이상 1억 400만 원 미만의 간이과세자에게 세금계산서 발급 의무가 신설되면서 실무적인 세무 관리 및 부가가치세 신고의 복잡성은 오히려 대폭 증가하는 결과를 초래하였다 [cite: 3, 5, 6].\n\n일반과세자와 간이과세자는 과세 체계 및 세액 산정 방식에서 명확한 차이를 보인다. 일반과세자의 부가가치세 납부세액은 아래 산식과 같이 매출세액에서 매입세액을 직접 차감하여 산출된다.\n\n$$Tax_{general} = (Sales \\times 10\\%) - Deductible\\_Input\\_Tax$$\n\n반면 간이과세자는 매출액에 업종별 부가가치율과 10% 세율을 곱한 뒤 매입 공급대가의 0.5%를 공제세액으로 차감하여 납부세액을 계산한다.\n\n$$Tax_{simplified} = (Sales \\times Industry\\_Value\\_Added\\_Rate \\times 10\\%) - (Purchase\\_Amount \\times 0.5\\%)$$\n\n| 구 분 | 일반과세자 | 간이과세자 |\n| :--- | :--- | :--- |\n| **적용 기준 (직전 연도 매출)** | 연 매출 1억 400만 원 이상 또는 배제 업종 | 연 매출 1억 400만 원 미만 소규모 사업자 |\n| **과세 기간 및 신고 횟수** | 연 2회 (1기: 1.1~6.30 / 2기: 7.1~12.31) | 연 1회 (1.1~12.31, 단 예정신고 대상 존재) |\n| **적용 세율** | 10% (일반) | 1.5% ~ 4% (업종별 부가가치율 15~40% 적용) |\n| **세금계산서 발급 의무** | 모든 사업자 의무 발급 | 연 매출 4,800만 원 이상 시 발급 의무 발생 |\n| **매입세액 환급 여부** | 매입세액이 매출세액 초과 시 환급 가능 | 환급 불가능 (매입세액이 많아도 환급 불가) |\n\n국내 세무대행 시장의 공급 측면을 분석하면, 회계법인의 전체 연간 매출 규모는 6조 원을 넘어섰으며, 이 중 빅4 회계법인의 세무자문 매출만 6,424억 원을 기록하고 있다 [cite: 7, 8]. 그러나 소규모 개인사업자 및 자영업자를 대상으로 하는 실질적인 부가가치세 신고 대행 및 기장 시장은 주요 세무법인과 개업 세무사 사무소, 그리고 세무 테크 플랫폼이 분점하고 있다 [cite: 9, 10, 11].\n\n연 매출 50억 원을 초과하여 공직자 취업제한 대상에 지정된 대형 세무법인은 전국 180개에 이른다 [cite: 11]. 매출액 상위권 세무법인으로는 광교세무법인(420억 원), 비앤에이치 세무법인(413억 원), 세무법인 다솔(410억~427억 원), 택스홈앤아웃(264억 원), 예일세무법인(249억 원) 등이 시장을 선도하고 있다 [cite: 10, 11, 12]. 한편 개인 세무사 사무소 영역에서는 고부가가치 절세 컨설팅 및 기업 맞춤형 서비스로 전환한 세람택스가 연 매출 94억 원을 기록하며 단일 개인 사무소의 대형화 가능성을 입증하였다 [cite: 13].\n\n소규모 사업자의 부가가치세 신고 대행 시장 규모가 확대되는 근본적인 원인은 과세 관청의 디지털 매출 포착률 상향과 세법 기준의 고도화에 있다. 신용카드, 현금영수증, 온라인 이커머스 결제 내역 등이 홈택스로 자동 집계되면서 매출 은닉이 사실상 불가능해진 반면, 적격 증빙의 매입세액 공제 판단, 안분 계산, 영세율 적용 등의 요건은 한층 까다로워졌다 [cite: 6, 14]. 이에 따라 자력 신고가 어려운 300만~400만 명의 영세 개인사업자가 정기적인 신고 대행이나 월 기장 서비스를 필수적으로 이용하게 되면서, 관련 대행 수수료 시장은 연간 수천억 원 규모의 안정적인 B2B 시장을 형성하고 있다 [cite: 1, 15, 16].\n\n## 2. 부가가치세 신고 대행 업무 프로세스 및 단계별 소요시간 분석\n\n부가가치세 신고 대행 업무는 단순히 수치를 전산에 입력하는 작업을 넘어, 증빙 수집, 세법상 매입세액 공제 여부의 법률적 판정, 세액 산정, 국세청 신고 파일 변환 및 검증을 포함하는 다단계 전문 프로세스이다 [cite: 6].\n\n세무 대행 업무의 첫 단계는 증빙 및 거래 내역의 종합적인 수집에서 시작된다. 홈택스를 통한 전자세금계산서, 현금영수증 내역 조회를 포함하여 여신금융협회 및 각 카드사별 신용카드 매출·매입 내역, 사업용 계좌 입출금 내역, 종이 세금계산서 및 영수증을 수집한다 [cite: 6]. 두 번째 단계는 데이터 파싱 및 파이프라인 연동 과정으로, 수집된 개별 거래 데이터를 회계 전산 시스템으로 가져오며, 종이 증빙이나 PDF 파일 형태의 세금계산서는 광학문자인식(OCR) 기술을 적용해 사업자등록번호, 공급가액, 세액을 추출한다 [cite: 6].\n\n세 번째 단계는 세무 대행 업무의 핵심인 매입세액 공제 요건 검토 및 분개 작업이다. 이 단계에서 세무 전문가는 세법상 공제 대상에서 제외되는 항목들을 엄격히 가려내야 한다. 업무와 직접 관련이 없는 사적 지출, 비영업용 소형 승용차(배기량 1,000cc 초과)의 구입 및 유지비, 접대비 관련 지출, 면세사업 관련 매입세액을 정밀하게 분류하여 차후 발생할 수 있는 가산세 및 세무조사 리스크를 차단한다 [cite: 6]. \n\n네 번째 단계는 부가가치세 신고서 작성 및 공제·감면 세액의 최종 산정이다. 매출·매입처별 세금계산서 합계표, 신용카드매출전표 수령명세서, 전자세금계산서 발급 세액공제, 현금영수증 사업자 공제(발행금액의 1.3%, 연간 1,000만 원 한도) 등을 반영하여 최종 납부세액 또는 환급세액을 산출한다 [cite: 5, 6]. 마지막 다섯 번째 단계는 국세청 홈택스 전자신고 파일 전송 및 검증 단계로, 전산 오류 검증을 거쳐 최종 전송한 후 접수증을 발급받아 보관한다 [cite: 6].\n\n인공지능 및 데이터 자동 수집 기술의 도입은 기존 수작업 중심의 처리 체계를 획기적으로 개선하였다 [cite: 6, 17, 18]. 아래 표는 사업자 1건당 부가가치세 신고 업무에 소요되는 전통 방식과 AI 자동화 솔루션 도입 후의 단계별 소요시간을 비교한 결과이다.\n\n| 업무 단계 | 전통 수작업 방식 소요시간 | AI 및 자동화 솔루션 도입 시 소요시간 | 시간 절감율 |\n| :--- | :--- | :--- | :--- |\n| **1. 증빙 자료 수집** | 60분 ~ 120분 (고객 수동 제출 및 파일 확인) | 5분 (API/스크래핑 자동 연동) [cite: 18] | **91.7% ~ 95.8%** |\n| **2. 데이터 추출 및 입력** | 45분 ~ 60분 (엑셀 정리 및 수기 입력) | 5분 (OCR 및 자동 데이터 파싱) [cite: 6, 18] | **88.9% ~ 91.7%** |\n| **3. 매입세액 공제 검토 및 분개**| 30분 ~ 45분 (건별 개별 판정) | 10분 (AI 규칙 기반 자동 분류 및 예외 검토) | **66.7% ~ 77.8%** |\n| **4. 신고서 작성 및 산정** | 20분 ~ 30분 (서식 직접 작성) | 5분 (원클릭 신고서 자동 생성) [cite: 6] | **75.0% ~ 83.3%** |\n| **5. 홈택스 전송 및 결과 확인**| 10분 ~ 15분 | 2분 (일괄 전자 전송 및 자동 확인) | **80.0% ~ 86.7%** |\n| **합 계 (1건당 기준)** | **165분 ~ 270분 (약 2.75 ~ 4.5시간)** | **27분 (약 0.45시간)** | **83.6% ~ 90.0%** |\n\n전체 업무 소요시간이 1건당 평균 3시간 내외에서 30분 미만으로 줄어듦에 따라, 세무사무소 실무자 1인당 처리 가능한 수임업체 수는 기존 대비 2배 이상 확대되었다 [cite: 17]. 또한 데이터 입력 시 발생하는 휴먼 에러가 크게 줄어들면서, 단순 반복 노동 중심이었던 세무사무소의 업무 구조가 절세 자문 및 경영 컨설팅 중심으로 빠르게 재편되고 있다 [cite: 17, 19].\n\n## 3. 세무 기장 및 신고 대행 수수료 가격 체계\n\n국내 세무 수수료 구조는 매월 거래 내역을 기록·관리하는 '월 기장료', 특정 신고 기간에 일회성으로 업무를 대행하는 '신고 대행료', 그리고 연간 결산 및 종합소득세·법인세 신고 시 청구되는 '세무조정료'로 나뉜다 [cite: 16, 20].\n\n개인사업자의 월 기장료는 연간 매출액과 거래 증빙 수량, 직원 수에 연동되어 설정된다 [cite: 16, 21, 22]. 일반적으로 연 매출 1억 원 미만의 소규모 사업자는 월 8만~10만 원선에서 기본 요금이 형성되며, 연 매출이 커지거나 인건비 신고 대상 직원이 존재하는 경우 월 15만~25만 원 이상으로 상향된다 [cite: 16, 21, 22, 23]. 법인사업자는 복식부기 의무, 법인세 신고 리스크, 4대 보험 관리 부담으로 인해 최소 월 15만~30만 원 수준에서 기장료가 시작된다 [cite: 16, 21, 23, 24].\n\n장부 기장 계약 없이 특정 부가가치세 신고 기한에만 자료를 넘겨 신고를 대행하는 일회성 서비스의 경우, 일반과세자는 회당 10만~15만 원, 간이과세자는 회당 5만~10만 원의 정액 수수료가 청구된다 [cite: 15, 23].\n\n| 구분 및 매출 규모 | 월 기장료 (개인) | 월 기장료 (법인) | 일회성 부가세 신고대행료 | 연간 세무조정료 (연 1회) |\n| :--- | :--- | :--- | :--- | :--- |\n| **연 매출 5천만 원 미만** | 3만 ~ 8만 원 [cite: 22, 23] | 15만 원 안팎 [cite: 22, 23] | 5만 ~ 10만 원 [cite: 15, 23] | 15만 ~ 25만 원 [cite: 22] |\n| **연 매출 5천만~1억 원 미만** | 8만 ~ 12만 원 [cite: 21, 23] | 15만 ~ 20만 원 [cite: 23] | 10만 원 내외 [cite: 15, 23] | 25만 ~ 30만 원 [cite: 22] |\n| **연 매출 1억~3억 원 미만** | 12만 ~ 15만 원 [cite: 21, 23] | 20만 ~ 30만 원 [cite: 21, 23] | 15만 ~ 20만 원 [cite: 16, 23] | 35만 ~ 50만 원 [cite: 22, 23] |\n| **연 매출 3억~5억 원 미만** | 15만 ~ 20만 원 [cite: 21, 23] | 25만 ~ 35만 원 [cite: 21, 23] | 20만 ~ 30만 원 [cite: 16] | 50만 ~ 65만 원 [cite: 22, 23] |\n| **연 매출 5억~10억 원 미만** | 20만 ~ 25만 원 [cite: 21, 23] | 30만 ~ 40만 원 [cite: 21, 23] | 별도 협의 / 기장 전환 [cite: 14] | 80만 ~ 100만 원 [cite: 22, 23] |\n| **모바일/플랫폼형 (쎔, 삼쩜삼 등)**| 월 3.3만 원 또는 건당 3.3만 원 (정액제) [cite: 9] | - | 건당 3.3만 원 또는 환급액/매출 비례 (정률제) [cite: 9] | 플랫폼 내 별도 요금 산정 |\n\n수수료 가격 산정 시 고려되는 세부 요인으로는 매출 규모 외에 매출 증빙의 다양성(배달 앱, 이커머스, 해외 카드 등), 매입세액 공제 판정의 난이도, 영세율 적용 여부, 과세 및 면세 겸영 여부, 직원 인건비 및 4대 보험 관리 인원수가 포함된다 [cite: 14, 16].\n\n최근 세무 테크 플랫폼이나 일부 사무소에서 제시하는 '월 3.3만 원 초저가 기장'은 초기에 사업자를 유인하기 위한 가격 정책인 경우가 많다 [cite: 20, 22]. 세무대행 계약 시 월 기장료 외에 부가가치세 신고비용, 원천세 신고비용, 연말정산 수수료, 종합소득세 세무조정료가 별도로 청구되는지 미리 확인하지 않으면 연간 총 부담 비용 측면에서 차이가 없거나 오히려 과도한 지출이 발생할 수 있다 [cite: 20, 21]. 아울러 저가 수수료 구조에서는 개별 사업장에 대한 인적 세무 검증이 부실해질 수 있어, 매입세액 공제 누락이나 세무조사 리스크에 노출될 위험이 존재한다 [cite: 14, 20].\n\n## 4. 경쟁 시장 지형 및 주요 플레이어 분석\n\n국내 소규모 사업자 세무 대행 시장은 전통적인 세무법인 및 개인 세무사 사무소, IT 기술과 전문 세무 조직을 결합한 하이브리드 세무 테크 기업, 그리고 모바일 UX에 기반한 순수 B2C 세무 플랫폼의 3자 경쟁 체제로 운영되고 있다 [cite: 9, 10, 25, 26].\n\n세무법인 다솔, 광교, 비앤에이치, 세람택스 등으로 대표되는 전통 세무법인 및 전문 사무소는 대면 상담 중심의 밀착형 절세 컨설팅과 복잡한 세무 조사 대응을 강점으로 고소득 개인사업자 및 중소기업 시장을 공고히 점유하고 있다 [cite: 10, 11, 13]. 이에 맞서 혜움랩스(혜움)와 같은 하이브리드 세무 테크 기업은 IT 연구소 기반의 기술력을 바탕으로 사업자 전용 세무·재무 관리 시스템인 '혜움 레포트 2.0'과 경정청구 서비스 '더낸세금'을 제공하고 있다 [cite: 25, 26]. 혜움은 2025년 4월 IBK기업은행, 키움인베스트먼트, 쿼드벤처스 등으로부터 105억 원 규모의 시리즈B 투자를 유치하며 누적 투자금 210억 원을 기록하였고, 중소벤처기업부 '2024 초격차 스타트업'에 선정되어 실행과 추론이 모두 가능한 금융 에이전틱 AI 고도화에 집중하고 있다 [cite: 25, 26, 27].\n\n순수 B2C 세무 플랫폼 영역에서는 자비스앤빌런즈가 운영하는 '삼쩜삼'과 널리소프트의 '쎔(SSEM)'이 시장을 이끌고 있다 [cite: 9]. 삼쩜삼은 프리랜서 및 N잡러의 종합소득세 환급 서비스를 기반으로 2025년 기준 누적 가입자 2,400만 명과 누적 환급액 2조 원을 돌파하였으며, 개인사업자 대상 세무 서비스인 '삼쩜삼 마이비즈' 및 부가가치세 신고 지원 서비스로 영역을 넓혀 2025년 매출액 756억 원, 영업이익 33.8억 원을 달성하였다 [cite: 28, 29]. 반면 쎔(SSEM)은 영업장을 운영하는 개인사업자를 주요 타깃으로 삼아 부가가치세 및 종합소득세 신고를 건당 33,000원이라는 저렴한 정액 수수료로 처리할 수 있도록 지원하며 영세 사업자 층을 빠르게 흡수하였다 [cite: 9].\n\n| 분석 항목 | 전통 세무법인 (광교, 다솔 등) | 혜움 (Haeum) | 삼쩜삼 (자비스앤빌런즈) | 쎔 (SSEM) |\n| :--- | :--- | :--- | :--- | :--- |\n| **주요 타깃** | 중견/중소기업, 고소득 개인사업자 [cite: 10, 11] | 소상공인, 스타트업, 중소기업 [cite: 25, 26] | 프리랜서, N잡러, 소규모 사업자 [cite: 9, 29] | 개인사업자, 자영업자 [cite: 9] |\n| **수수료 체계** | 월 기장료 + 세무조정료 (고가/고품질) [cite: 16, 23] | 월 기장료 연동 구독형 서비스 [cite: 25] | 환급액/매출 비례 정률제 [cite: 9] | 부가세/종소세 건당 33,000원 정액제 [cite: 9] |\n| **핵심 경쟁력** | 전문성, 세무조사 대응, 절세 자문 [cite: 13, 23] | AI 레포트, AI 에이전트, 세무사 연계 [cite: 25, 26] | 압도적 가입자(2,400만), 모바일 UX [cite: 29] | 저렴한 정액 수수료, 직관적 UI [cite: 9] |\n| **주요 재무/실적** | 상위권 연 매출 400억 원대 [cite: 10, 11, 12] | 누적 투자 유치액 210억 원 [cite: 25, 26] | 2025년 매출액 756억 원 [cite: 28] | 개인사업자 부가세 신고 시장 안착 [cite: 9] |\n\n세무 테크 플랫폼의 시장 확장에 따라 법적·제도적 마찰도 격화되었다 [cite: 30, 31, 32]. 한국세무사회는 삼쩜삼 등 플랫폼 기업들이 세무사 자격 없이 세무대리를 수행하고 세무사를 알선·소개했다며 세무사법 위반 혐의로 경찰과 검찰에 지속적으로 고발을 제기하였다 [cite: 30, 31, 32]. 그러나 대검찰청은 2025년 5월 한국세무사회가 제기한 삼쩜삼의 세무사법 위반 재항고 사건을 기각함으로써, 약 4년간 이어진 형사상 무혐의 처분을 최종 확정하였다 [cite: 30, 33, 34].\n\n형사적 무혐의와는 별개로, 소비자의 오인을 유발하는 과장 광고 및 표시광고법 위반에 대한 규제 수위는 한층 강화되고 있다. 공정거래위원회는 삼쩜삼의 거짓·과장 광고 행위에 대해 시정명령과 함께 7,100만 원의 과징금을 부과한 바 있으며, 세무사회는 부당 공제 적용 표시 및 후기 조작 정황 등을 근거로 공정위에 2차 신고를 접수하였다 [cite: 35, 36]. \n\n더욱이 2026년 6월 24일부터 무자격자의 세무대리 오인 광고 및 부당한 환급 기대를 유발하는 광고를 엄격히 금지하는 개정 세무사법 및 시행령이 전면 시행된다 [cite: 35, 37]. 이에 따라 '최대 환급 보장', '무조건 환급', '환급률 1위' 등의 표현이 엄격히 제한되며, 플랫폼 기업들은 자율적인 광고 시정과 세무 대리 주체의 명확한 표기 의무를 준수해야 하는 규제 환경에 직면해 있다 [cite: 35, 37].\n\n## 5. 세무·회계 분야 AI 도입 사례 및 파급 효과\n\n세무·회계 분야의 인공지능 도입은 수작업 자동화 수준을 넘어 세법 해석, 데이터 정합성 검증, 실시간 경영 컨설팅을 자율적으로 실행하는 에이전틱 AI 단계로 진화하고 있다 [cite: 25, 38].\n\n국내 대표 회계 소프트웨어 기업인 더존비즈온은 세무사무소용 클라우드 플랫폼 'WEHAGO T'에 생성형 AI 솔루션인 'ONE AI'를 결합하여 실무 현장의 혁신을 이끌고 있다 [cite: 19, 38, 39]. ONE AI는 최신 세법, 예규, 판례 데이터를 RAG(검색증강생성) 기술로 연동하여 실무자의 질문에 법적 근거를 바탕으로 정확히 답변하는 'AI 세법 도우미' 기능을 제공한다 [cite: 38]. 또한 Function Call 기술을 탑재하여 사용자가 음성이나 텍스트로 명령하면 국세청 홈택스 시스템과 직접 연동되어 소득금액증명원, 부가가치세 과세표준증명 등 민원 서류를 발급하고 팩스나 이메일로 자동 전송한다 [cite: 38]. 이와 함께 회계 처리된 자산 중 고정자산 누락 건 감지, 동일 거래처의 채권·채무 계정 상계 검토, 전년 대비 이상 변동 계정과목 추출 등 데이터 정합성 검증을 자동 수행하여 신고 오류를 최소화한다 [cite: 38].\n\n전문 세무 테크 기업들 역시 자사 특화 AI 기술을 현장에 적극 도입하고 있다. 혜움랩스는 단순 업무 처리를 넘어 사업자의 미수금 및 미지급금 관리, 세무 리스크 추론, 절세 시나리오 작성을 수행하는 금융 AI 에이전트를 구축하고 있다 [cite: 25]. 클로브AI(Clobe AI)와 Lido OCR 솔루션은 종이 영수증 및 PDF 세금계산서의 사업자등록번호, 공급가액, 세액을 스캔하여 ERP 포맷으로 자동 변환·매칭함으로써 매입 자료 정리 시간을 기존 2시간에서 5분 이내로 절감시켰다 [cite: 6, 18]. WAA(Work AI Automation) 솔루션은 홈택스 세금계산서 및 카드 매출 내역의 수집·엑셀 정리를 자동화하여 세무사무소의 데이터 정리 시간을 70% 이상 단축시켰다 [cite: 17].\n\nAI 기술의 급격한 침투는 세무·회계 시장에 세 가지 차원의 파급 효과를 야기하고 있다. \n\n첫째, 정형화된 단순 기장 및 부가가치세 입력 업무의 한계 비용이 0에 수렴함에 따라 기초 대행 수수료의 하락 압력(Fee Erosion)이 가속화되고 있다 [cite: 9, 16, 17].\n\n둘째, 세무 전문가의 역할 변화와 서비스 양극화이다. 수납 및 입력 업무 시간이 80% 이상 절감됨에 따라 세무사들은 단순 작성자에서 벗어나 가업 승계, 상속·증여, 법인 전환, 세무 조사 대응, 투자 유치 자문 등 고부가가치 절세 컨설팅으로 비즈니스 중심축을 이동시키고 있다 [cite: 13, 17, 19].\n\n셋째, 플랫폼과 세무 전문가의 공존 및 하이브리드 결합이다. 대립적 관계를 벗어나 AI 플랫폼이 1차 데이터 수집·파싱·오류 검증을 담당하고, 협력 세무사가 최종 세무 판단 및 고도화된 컨설팅을 제공하는 하이브리드 세무 서비스 모델이 시장의 새로운 표준으로 확립되고 있다 [cite: 19, 25].\n\n## 6. 결론 및 향후 전망\n\n한국 소규모 사업자 부가가치세 신고 대행 및 세무·회계 시장은 기술 발전, 규제 변화, 시장 수요의 고도화가 결합되며 중대한 구조적 전환점을 지나고 있다.\n\n간이과세 적용 기준의 연 매출 1억 400만 원 상향 조치는 영세 사업자의 부가가치세 직접 세 부담을 줄여주었으나, 세금계산서 발급 의무 확대와 과세 관청의 전산 검증망 고도화로 인해 체계적인 세무 관리 및 매입세액 공제 검토에 대한 전문성 수요는 오히려 증대되었다 [cite: 2, 3, 5].\n\n경쟁 환경 측면에서는 세무 플랫폼에 대한 세무사법 위반 형사상 무혐의 처분이 확정되면서 기술 기반 세무 대행이 시장의 주요 축으로 인정받게 되었다 [cite: 30, 34]. 그러나 2026년 6월 시행되는 개정 세무사법에 따라 소비자 오인 광고 및 과장 마케팅에 대한 사법적·행정적 규제가 대폭 강화되므로, 시장은 단순 가격 경쟁 및 이용자 유치 단계에서 '서비스의 정확성과 세무 리스크 관리의 질적 경쟁' 단계로 전환될 것이다 [cite: 35, 37].\n\n향후 세무·회계 시장에서 주도권을 확보하기 위해서는 에이전틱 AI 솔루션을 통한 내부 운영 효율화와 함께, 세무 전문가에 의한 정밀 검증 체계를 조화롭게 결합해야 한다. 세무 테크 기업과 전통 세무업계 모두 단순 신고 대행을 넘어 소규모 사업자의 경영·재무 상태를 종합적으로 자문하는 '데이터 기반 전문 파트너'로 발전하는 것이 지속 가능한 성장의 핵심 과제가 될 것이다 [cite: 19, 25].\n\n---\n\n1. [세미콜론] 개인사업자 4명 중 1명은 '간이과세'…배제지역 축소에 더 늘어난다 - 세정일보, [https://www.sejungilbo.com/news/articleView.html?idxno=58048](https://www.sejungilbo.com/news/articleView.html?idxno=58048)\n2. 개인신고안내 - 부가가치세 - 기본정보 - 국세청, [https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272)\n3. 일반과세자, 간이과세자 기준ㅣ내 사업에 유리한 과세 유형은? - KB의 생각, [https://kbthink.com/biz-tax/taxpayer-types.html](https://kbthink.com/biz-tax/taxpayer-types.html)\n4. 간이과세자 일반과세자 기준과 부가세 - 세무상담, [https://www.findsemusa.com/service/post/postView.do?stype=30&qidx=559](https://www.findsemusa.com/service/post/postView.do?stype=30&qidx=559)\n5. 국세청 사업자 등록 의무 세액계산 방법, [https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806)\n6. 부가가치세 신고 자동화 가이드 (2026 부가세 신고 효율화) - Lido, [https://www.lido.app/kr/bugaga-chise-singo](https://www.lido.app/kr/bugaga-chise-singo)\n7. 지난해 국내 회계법인 매출 6조 돌파…세무 등 비감사부문 견인, [https://www.taxtimes.co.kr/news/article.html?no=272534](https://www.taxtimes.co.kr/news/article.html?no=272534)\n8. 세무자문 성장…빅4 회계법인 총매출 3조 첫 돌파 - 매일경제, [https://www.mk.co.kr/news/stock/12165278](https://www.mk.co.kr/news/stock/12165278)\n9. 쎔과 삼쩜삼은 뭐가 다를까 - IT조선, [https://it.chosun.com/news/articleView.html?idxno=2023092111559](https://it.chosun.com/news/articleView.html?idxno=2023092111559)\n10. [리그테이블]2025년 세무법인 매출 TOP20 집중 분석 - 택스워치, [https://www.taxwatch.co.kr/article/tax/2025/07/10/0002](https://www.taxwatch.co.kr/article/tax/2025/07/10/0002)\n11. 세무법인 매출 순위 TOP100 분석 - 택스워치, [https://www.taxwatch.co.kr/article/tax/2025/02/18/0002](https://www.taxwatch.co.kr/article/tax/2025/02/18/0002)\n12. [리그테이블]2025년 세무법인 매출 TOP20(업데이트 ver.) > 소식자료, [https://dasoltax.com/board/press/59](https://dasoltax.com/board/press/59)\n13. 세람택스, 매출 94억…개인 세무사 사무소 '전국 1위' - 포브스코리아, [https://www.forbeskorea.co.kr/news/articleView.html?idxno=401348](https://www.forbeskorea.co.kr/news/articleView.html?idxno=401348)\n14. 부가세 신고대행 비용, 세무사 수수료는 어떻게 정해질까?, [https://savingtax.kr/blog/tax/tax-accountant-fee-vat-filing](https://savingtax.kr/blog/tax/tax-accountant-fee-vat-filing)\n15. 신고대행 - 미래세무회계사무소, [http://www.tax5400.co.kr/page/info02](http://www.tax5400.co.kr/page/info02)\n16. 세무사 기장료는 보통 얼마인가요? - 세무통, [https://www.semutong.com/tax-answers/%EC%84%B8%EB%AC%B4%EC%82%AC-%EA%B8%B0%EC%9E%A5%EB%A3%8C-%EC%8B%9C%EC%84%B8](https://www.semutong.com/tax-answers/%EC%84%B8%EB%AC%B4%EC%82%AC-%EA%B8%B0%EC%9E%A5%EB%A3%8C-%EC%8B%9C%EC%84%B8)\n17. [자동화 사례] 세무 사무실 기장대행 자동화 - SAP 컨설팅 & ITO 서비스 - ASPN, [https://blog.aspn.co.kr/tax-bookkeeping-automation](https://blog.aspn.co.kr/tax-bookkeeping-automation)\n18. 세무자료 제출 자동화, 매달 반복되는 자료 요청을 없애는 방법 - 클로브AI, [https://clobe.ai/blog/tax-document-submission-automation](https://clobe.ai/blog/tax-document-submission-automation)\n19. [더존 로드쇼 현장에서]\"ONE AI는 세무사·회계사 서포트하는 도구\" - 한국세정신문, [https://www.taxtimes.co.kr/news/article.html?no=266650](https://www.taxtimes.co.kr/news/article.html?no=266650)\n20. 세무대행(기장대행) 비용 총정리 (2026): 월 기장료·조정료 적정선은? - 클로브AI, [https://clobe.ai/blog/tax-agency-bookkeeping-cost-guide-2026](https://clobe.ai/blog/tax-agency-bookkeeping-cost-guide-2026)\n21. 세무사 기장료, 월 얼마가 적정한가요? 2026 업종별 시세 | CTK 세무 블로그, [https://ctk-app.com/blog/accountant-bookkeeping-fee-2026](https://ctk-app.com/blog/accountant-bookkeeping-fee-2026)\n22. 일반 회계사무실의 1/2 가격 - 모바일택스, [https://mobiletax.kr/pricing](https://mobiletax.kr/pricing)\n23. 세무사 보수표·기장료 가격 안내 | 다원세무회계 - 투명 가격 공개, 사전 견적, [https://enjoytax.net/pricing](https://enjoytax.net/pricing)\n24. 한경세무회계 수수료요율표 (2026년 기장대행, 결산세무조정료 등), [https://www.protax.co.kr/plan](https://www.protax.co.kr/plan)\n25. 혜움, 시리즈B 투자 유치, [https://www.heumtax.com/contents/posts/heum-series-b-funding](https://www.heumtax.com/contents/posts/heum-series-b-funding)\n26. 혜움, 105억원 규모 시리즈B 투자유치 - 바이라인네트워크, [https://byline.network/2025/04/08-166/](https://byline.network/2025/04/08-166/)\n27. 혜움, 105억원 규모 시리즈B 투자유치…누적 투자액 210억원 - 와우테일, [https://wowtale.net/2025/04/08/239478/](https://wowtale.net/2025/04/08/239478/)\n28. (주)자비스앤빌런즈 2025년 재무정보 - 사람인, [https://www.saramin.co.kr/zf_user/company-info/view-inner-finance/csn/cjVJcldHbUhIZ041RGRZQ0tIV240Zz09/company_nm/(%EC%A3%BC)%EC%9E%90%EB%B9%84%EC%8A%A4%EC%95%A4%EB%B9%8C%EB%9F%B0%EC%A6%88](https://www.saramin.co.kr/zf_user/company-info/view-inner-finance/csn/cjVJcldHbUhIZ041RGRZQ0tIV240Zz09/company_nm/(%EC%A3%BC)%EC%9E%90%EB%B9%84%EC%8A%A4%EC%95%A4%EB%B9%8C%EB%9F%B0%EC%A6%88)\n29. 자비스앤빌런즈 | 삼쩜삼, [https://jobisnvillains.com/](https://jobisnvillains.com/)\n30. 삼쩜삼 불법 세무대리 의혹 벗었다…대검, 세무사회 재항고 기각 - 유니콘팩토리, [https://www.unicornfactory.co.kr/article/2025061210010310360](https://www.unicornfactory.co.kr/article/2025061210010310360)\n31. 한국세무사회, '삼쩜삼 고발 건 경찰 불송치 결정' 유감 표명 - 테크42, [https://www.tech42.co.kr/%ED%95%9C%EA%B5%AD%EC%84%B8%EB%AC%B4%EC%82%AC%ED%9A%8C-%EC%82%BC%EC%A9%9C%EC%82%BC-%EA%B3%A0%EB%B0%9C-%EA%B1%B4-%EA%B2%BD%EC%B0%B0-%EB%B6%88%EC%86%A1%EC%B9%98-%EA%B2%B0%EC%A0%95/](https://www.tech42.co.kr/%ED%95%9C%EA%B5%AD%EC%84%B8%EB%AC%B4%EC%82%AC%ED%9A%8C-%EC%82%BC%EC%A9%9C%EC%82%BC-%EA%B3%A0%EB%B0%9C-%EA%B1%B4-%EA%B2%BD%EC%B0%B0-%EB%B6%88%EC%86%A1%EC%B9%98-%EA%B2%B0%EC%A0%95/)\n32. 세무사회 “삼쩜삼에 대한 추가 고발 건 등 3건의 사법리스크 지속 중” - 조세플러스, [https://joseplus.com/article/1065602234886120](https://joseplus.com/article/1065602234886120)\n33. 삼쩜삼, 법적 공방 종결…대검, 세무사회 재항고 기각, [https://blog.3o3.co.kr/250612-news/](https://blog.3o3.co.kr/250612-news/)\n34. 삼쩜삼, '불법 세무대리' 의혹 벗었다···세무사회 \"대단히 유감\" - 한경매거진&북, [https://magazine.hankyung.com/business/article/202506121252b](https://magazine.hankyung.com/business/article/202506121252b)\n35. \"평균 28만원 환급\" 또 논란.. 세무사회, 삼쩜삼 거짓⋅기만광고 공정위 2차 신고, [https://www.kacpta.or.kr/notice_view/not_press/Josenews.asp?mode=view&GotoPage=1&bbs_key=625](https://www.kacpta.or.kr/notice_view/not_press/Josenews.asp?mode=view&GotoPage=1&bbs_key=625)\n36. 작년 공정위 제재받은 삼쩜삼…세무사회, 공정위에 또 신고 - 한국세정신문, [https://taxtimes.co.kr/news/article.html?no=275342](https://taxtimes.co.kr/news/article.html?no=275342)\n37. 한국세무사회, 세무플랫폼에 불법 세무대리 오인 광고 자진 시정 최후통첩, [https://webzine.kacta.or.kr/news/articleView.html?idxno=25405](https://webzine.kacta.or.kr/news/articleView.html?idxno=25405)\n38. 세무회계사무소를 위한 혁신적인 AI 서비스 - ONE AI - WEHAGO T, [https://www.wehagot.com/landingt/oneai/](https://www.wehagot.com/landingt/oneai/)\n39. 사람이 하는 세무회계? 이젠 인공지능으로 | 자유게시판 | 커뮤니티 - 중부대학교, [https://www.joongbu.ac.kr/board.es?mid=f60502000000&bid=0185&act=view&list_no=310856&tag=&nPage=102](https://www.joongbu.ac.kr/board.es?mid=f60502000000&bid=0185&act=view&list_no=310856&tag=&nPage=102)\n",
+  "cited_only": true,
+  "cited_sources_selected": 40,
+  "cited_only_fallback": false,
+  "imported": 40,
+  "imported_sources": [
+    {
+      "id": "1a6ed86e-f7b7-4c38-b0bf-b234e7ac5ad8",
+      "title": "한국 소규모 사업자 부가가치세 신고 대행 및 세무·회계 시장 종합 분석 보고서"
+    },
+    {
+      "id": "6d521bdb-338a-46b2-9eb9-355fd1612a3e",
+      "title": "부가가치세 신고 자동화 가이드 (2026 부가세 신고 효율화) - Lido"
+    },
+    {
+      "id": "33e6f789-8c26-420a-ba77-9b551abcfc1f",
+      "title": "쎔과 삼쩜삼은 뭐가 다를까 - IT조선"
+    },
+    {
+      "id": "8ecb1cd1-c61c-487b-b244-15d8b1d8e35a",
+      "title": "세무대행(기장대행) 비용 총정리 (2026): 월 기장료·조정료 적정선은? - 클로브AI"
+    },
+    {
+      "id": "fa8695e2-fdc3-45bf-9a62-4b832059e8a6",
+      "title": "일반과세자, 간이과세자 기준ㅣ내 사업에 유리한 과세 유형은? - KB의 생각"
+    },
+    {
+      "id": "9b8de79b-9a7c-4e89-a2d9-4d8c90dc6973",
+      "title": "국세청 사업자 등록 의무 세액계산 방법"
+    },
+    {
+      "id": "01f5e563-f807-4250-9a7e-3952928945a0",
+      "title": "세무사 기장료는 보통 얼마인가요? - 세무통"
+    },
+    {
+      "id": "d7a9073b-0fe2-49d2-b197-257ce0efeb42",
+      "title": "혜움, 시리즈B 투자 유치"
+    },
+    {
+      "id": "3f67a57c-b7dd-40ed-9733-28ec5c297581",
+      "title": "세무사 기장료, 월 얼마가 적정한가요? 2026 업종별 시세 | CTK 세무 블로그"
+    },
+    {
+      "id": "fe496e8c-90a4-4a6c-a3c2-5092063004f9",
+      "title": "세무회계사무소를 위한 혁신적인 AI 서비스 - ONE AI - WEHAGO T"
+    },
+    {
+      "id": "7acaf548-88e5-4bee-9ec3-a66e9590a9de",
+      "title": "[더존 로드쇼 현장에서]\"ONE AI는 세무사·회계사 서포트하는 도구\" - 한국세정신문"
+    },
+    {
+      "id": "2bebe70e-de1d-432a-82b4-9d0140676ff1",
+      "title": "자비스앤빌런즈 | 삼쩜삼"
+    },
+    {
+      "id": "85bc293f-a27c-426c-9f41-c253dfb14fd6",
+      "title": "삼쩜삼 불법 세무대리 의혹 벗었다…대검, 세무사회 재항고 기각 - 유니콘팩토리"
+    },
+    {
+      "id": "ad4c0f00-9a16-483d-93b5-b2b08e60e1f2",
+      "title": "[자동화 사례] 세무 사무실 기장대행 자동화 - SAP 컨설팅 & ITO 서비스 - ASPN"
+    },
+    {
+      "id": "13bab0d4-25fb-4c61-bdb0-89b73060ccdf",
+      "title": "세무자료 제출 자동화, 매달 반복되는 자료 요청을 없애는 방법 - 클로브AI"
+    },
+    {
+      "id": "d9b6d739-f618-4bb3-a567-e401d8f0c4e5",
+      "title": "세무사 보수표·기장료 가격 안내 | 다원세무회계 - 투명 가격 공개, 사전 견적"
+    },
+    {
+      "id": "05183c3c-7a00-42de-814b-931a0233ebdb",
+      "title": "일반 회계사무실의 1/2 가격 - 모바일택스"
+    },
+    {
+      "id": "40452939-b0cc-4640-bd9b-087896ff3666",
+      "title": "부가세 신고대행 비용, 세무사 수수료는 어떻게 정해질까?"
+    },
+    {
+      "id": "6d788699-e0b5-4268-a9ac-4d9b1e215a6c",
+      "title": "한경세무회계 수수료요율표 (2026년 기장대행, 결산세무조정료 등)"
+    },
+    {
+      "id": "13be5ed2-afae-4e2f-ad02-e9f0bb2c8ee7",
+      "title": "세무법인 매출 순위 TOP100 분석 - 택스워치"
+    },
+    {
+      "id": "a4ae2c84-fe94-46d8-80fa-a82c654f78f4",
+      "title": "[리그테이블]2025년 세무법인 매출 TOP20 집중 분석 - 택스워치"
+    },
+    {
+      "id": "a21bc617-f08a-449c-8c66-2fe735f0ca30",
+      "title": "[리그테이블]2025년 세무법인 매출 TOP20(업데이트 ver.) > 소식자료"
+    },
+    {
+      "id": "2bbd251b-1958-4dde-b0a2-a085c70caa6f",
+      "title": "세람택스, 매출 94억…개인 세무사 사무소 '전국 1위' - 포브스코리아"
+    },
+    {
+      "id": "751db078-46e4-4450-b65b-16a51d99f0c9",
+      "title": "[세미콜론] 개인사업자 4명 중 1명은 '간이과세'…배제지역 축소에 더 늘어난다 - 세정일보"
+    },
+    {
+      "id": "691c966e-34e1-4dc9-8fb6-2f3d2bb0f96e",
+      "title": "개인신고안내 - 부가가치세 - 기본정보 - 국세청"
+    },
+    {
+      "id": "3aebc10c-9a77-412a-9b42-4945e57c6037",
+      "title": "한국세무사회, 세무플랫폼에 불법 세무대리 오인 광고 자진 시정 최후통첩"
+    },
+    {
+      "id": "75d3a8b8-b70e-435d-bced-008560e44e90",
+      "title": "작년 공정위 제재받은 삼쩜삼…세무사회, 공정위에 또 신고 - 한국세정신문"
+    },
+    {
+      "id": "11f34dea-4561-49a2-9d0b-4604a74e12b6",
+      "title": "\"평균 28만원 환급\" 또 논란.. 세무사회, 삼쩜삼 거짓⋅기만광고 공정위 2차 신고"
+    },
+    {
+      "id": "3d3e9259-e807-4d9d-b25a-71699774770c",
+      "title": "세무사회 “삼쩜삼에 대한 추가 고발 건 등 3건의 사법리스크 지속 중” - 조세플러스"
+    },
+    {
+      "id": "0ce26c9c-0493-4719-963e-d0a9c76c1132",
+      "title": "한국세무사회, '삼쩜삼 고발 건 경찰 불송치 결정' 유감 표명 - 테크42"
+    },
+    {
+      "id": "92a35f1b-c60d-4166-9171-b43af5fe7d64",
+      "title": "삼쩜삼, 법적 공방 종결…대검, 세무사회 재항고 기각"
+    },
+    {
+      "id": "5d291655-cdb2-4ec6-bf99-85ebd24ca6d3",
+      "title": "삼쩜삼, '불법 세무대리' 의혹 벗었다···세무사회 \"대단히 유감\" - 한경매거진&북"
+    },
+    {
+      "id": "d29b9910-40c0-4e46-9983-a5fa26f500d8",
+      "title": "혜움, 105억원 규모 시리즈B 투자유치 - 바이라인네트워크"
+    },
+    {
+      "id": "5d8ec906-2593-4c87-8ff8-b8fc1d674c61",
+      "title": "혜움, 105억원 규모 시리즈B 투자유치…누적 투자액 210억원 - 와우테일"
+    },
+    {
+      "id": "b1855ce1-6781-4b78-9ebd-0c7c34b65312",
+      "title": "간이과세자 일반과세자 기준과 부가세 - 세무상담"
+    },
+    {
+      "id": "c4ba007c-4811-4bb4-9844-5510a3876e8e",
+      "title": "신고대행 - 미래세무회계사무소"
+    },
+    {
+      "id": "fd2018d7-895b-4a23-98ed-6c7879bbfbad",
+      "title": "(주)자비스앤빌런즈 2025년 재무정보 - 사람인"
+    },
+    {
+      "id": "bc373f09-9be9-4457-bea6-8c46b6ead099",
+      "title": "사람이 하는 세무회계? 이젠 인공지능으로 | 자유게시판 | 커뮤니티 - 중부대학교"
+    },
+    {
+      "id": "bc6266ee-1fba-48d8-b0c8-a085cf23327f",
+      "title": "세무자문 성장…빅4 회계법인 총매출 3조 첫 돌파 - 매일경제"
+    },
+    {
+      "id": "b562cc96-98bc-4dee-bc81-204cba5d0b9d",
+      "title": "지난해 국내 회계법인 매출 6조 돌파…세무 등 비감사부문 견인"
+    }
+  ]
+}

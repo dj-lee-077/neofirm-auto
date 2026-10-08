@@ -5,3 +5,37 @@ Poll ID: 818888b6-d90e-4bcd-82f8-1a8090317a55
 Research started. Commit its sources once it completes with 'notebooklm research
 import' (or 'notebooklm research wait --import-all' to block until then), 
 otherwise the NotebookLM web UI will keep an 'Add sources?' modal open.
+[04:39:17] 규제 fast 리서치
+Starting fast research on web...
+04:39:31 WARNING [notebooklm.research] Cited-only research import requested, but no cited URLs were found; falling back to all importable research sources
+Could not resolve cited sources; importing all sources.
+Task ID: 6c32e6a7-fc92-4f08-bd7d-d8f4debfce57
+
+Found 10 sources
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Title                             ┃ Type ┃ URL                               ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ 세무사법 - 국가법령정보센터       │ Web  │ https://www.law.go.kr/lsInfoP.do… │
+│ 국가법령정보센터 세무사법 제12조  │ Web  │ http://www.law.go.kr/LSW/lsLawLi… │
+│ 판례 > 세무사법위반[무자격        │ Web  │ https://www.law.go.kr/LSW/precIn… │
+│ 세무대리 사건] - 국가법령정보센터 │      │                                   │
+│ [최신판례] 무자격자가 명의 빌려   │ Web  │ https://intn.co.kr/news/articleV… │
+│ 세금신고 대행하면 세무사법 위반   │      │                                   │
+│ 세무법인 설립절차(이론) -         │ Web  │ http://www.namulaw.co.kr/board/b… │
+│ 나무법무사합동사무소              │      │                                   │
+│ 한국세무사고시회                  │ Web  │ https://www.gosihoi.co.kr/inform… │
+│ 세무사회, 국세청                  │ Web  │ https://webzine.kacta.or.kr/news… │
+│ 「세무사광고기준」 고시 환영…     │      │                                   │
+│ “불법 세무대리 근절 개정 세무사 … │      │                                   │
+│ 완성”                             │      │                                   │
+│ 업무소홀 세무사에 첫 손배책임     │ Web  │ https://www.lawtimes.co.kr/news/… │
+│ 인정 - 법률신문                   │      │                                   │
+│ 세법연구 07-11                    │ Web  │ https://world.moleg.go.kr/cms/co… │
+│ [알아봅시다]                      │ Web  │ https://m.kacta.or.kr/m_2024/boa… │
+│ 세무사손해배상책임보험 어떻게     │      │                                   │
+│ 운영되나 - 한국세무사회           │      │                                   │
+└───────────────────────────────────┴──────┴───────────────────────────────────┘
+Imported 9 sources
+Notebook is already clean. No junk sources found.
+[04:39:57] 소스 수: 50
+[04:39:57] S5 완료
