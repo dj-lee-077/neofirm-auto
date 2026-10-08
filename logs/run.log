@@ -39,3 +39,4 @@
 **팩트체크 정정**: 삼쩜삼 공정위 과징금 7,100만 원은 과거 환급액 광고 건이며, "평균 28만 원" 광고는 2026.5 세무사회 2차 신고 단계다 [factcheck 7]. 작업시간 165~270분→27분은 단일 출처 수치라 참고치로만 사용 [A2][gaps 2]. --type text --title memo.md -n e7e2938d-33ae-4545-b203-56b9c2a86f7c --json
 [05:34:52] S12 중단: 쿠키 무효화
 [05:55:36] 재시도: notebooklm source add output/memo.md -n e7e2938d-33ae-4545-b203-56b9c2a86f7c --json
+[05:59:38] 재시도: notebooklm source add output/memo.md -n e7e2938d-33ae-4545-b203-56b9c2a86f7c --json

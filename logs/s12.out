@@ -1,3 +1,3 @@
-05:55:35 ERROR [notebooklm._rpc_executor] [req=e405069d] RPC ADD_SOURCE_FILE failed after 0.617s: RPCError rpc_code=3
-[05:55:36] 재시도: notebooklm source add output/memo.md -n e7e2938d-33ae-4545-b203-56b9c2a86f7c --json
-05:56:09 ERROR [notebooklm._rpc_executor] [req=e4cb84f9] RPC ADD_SOURCE_FILE failed after 0.593s: RPCError rpc_code=3
+05:59:37 ERROR [notebooklm._rpc_executor] [req=4e86a070] RPC ADD_SOURCE_FILE failed after 0.737s: RPCError rpc_code=3
+[05:59:38] 재시도: notebooklm source add output/memo.md -n e7e2938d-33ae-4545-b203-56b9c2a86f7c --json
+06:00:10 ERROR [notebooklm._rpc_executor] [req=87bc50a4] RPC ADD_SOURCE_FILE failed after 0.668s: RPCError rpc_code=3
