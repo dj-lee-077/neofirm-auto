@@ -1,8 +1,0 @@
-{
-  "error": true,
-  "code": "RATE_LIMITED",
-  "message": "Error: Rate limited.",
-  "recovery_action": "none",
-  "commit_state": "rejected",
-  "operation": "artifacts.generate"
-}
