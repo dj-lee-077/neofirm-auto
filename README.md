@@ -24,6 +24,7 @@ claude.ai/code → 메시지창 위 구름 아이콘 → **Add cloud environment
 - **Network access**: **Custom**, *Also include default list* 체크, Allowed domains:
   ```
   notebooklm.google.com
+  notebook.google.com
   *.google.com
   *.googleusercontent.com
   *.gstatic.com
@@ -46,16 +47,20 @@ claude.ai/code → 메시지창 위 구름 아이콘 → **Add cloud environment
 
 > ⚠️ 이 값은 **구글 계정 전체 접근 권한**이다. 환경변수는 그 환경을 쓰는 사람에게 보이므로 **개인 환경에만** 넣고, 과제가 끝나면(10/13 이후) 환경변수를 지우고 `notebooklm auth logout`을 실행할 것. 가능하면 과제용 구글 계정을 쓰자.
 
-### 3. 내 컴퓨터에서 쿠키 뽑기 (Windows는 WSL 또는 PowerShell, Mac은 터미널)
+### 3. 내 컴퓨터에서 쿠키 뽑기 (Mac, 이미 로그인된 브라우저에서 읽기)
+브라우저 로그인 창(`notebooklm login`)이나 쿠키 내보내기 확장 프로그램은 구글이 세션 쿠키를 주지 않거나 거부해서 실패할 수 있다.
+**평소 쓰는 브라우저에서 쿠키를 직접 읽는 방식**이 가장 잘 된다. (Chrome 계열은 쿠키가 일부만 읽히니 Safari/Firefox 권장)
+1. 브라우저에서 **과제용 개인 Gmail**로 `https://notebook.google.com`에 로그인하고 노트북 목록이 보이는지 확인. (학교 계정은 막혀 있을 수 있음)
+2. Safari면 터미널에 `시스템 설정 → 개인정보 보호 및 보안 → 전체 디스크 접근 권한` 허용 후 터미널 재시작.
+3. 터미널에서:
 ```bash
-pip install "notebooklm-py[browser]"
-notebooklm login                       # 구글 로그인 창 → 로그인 완료되면 자동 저장
-notebooklm auth check --test           # 통과 확인
-notebooklm status --paths              # Storage State 경로 확인
-jq -c . "<위에서 나온 storage_state.json 경로>"   # 한 줄 JSON 출력 → 복사
+notebooklm auth inspect --browser safari -v                       # 로그인된 계정 목록 확인
+notebooklm login --browser-cookies safari --account 개인메일@gmail.com
+notebooklm auth check --test                                      # Token fetch ✓, Notebooks 숫자가 나와야 성공
+jq -c . ~/.notebooklm/profiles/default/storage_state.json | pbcopy   # 한 줄 JSON 복사
 ```
-복사한 한 줄을 1단계 `NOTEBOOKLM_AUTH_JSON='...'`의 따옴표 안에 붙여넣고 저장.
-(jq가 없으면 `python -c "import json,sys;print(json.dumps(json.load(open(sys.argv[1]))))" <경로>`)
+(jq가 없으면 `python3 -c "import json,sys;print(json.dumps(json.load(open(sys.argv[1])),separators=(',',':')))" <경로> | pbcopy`)
+복사한 한 줄을 1단계 `NOTEBOOKLM_AUTH_JSON='...'`의 따옴표 안에 붙여넣고 저장. 끝나면 `pbcopy < /dev/null`로 클립보드를 비우고 터미널의 전체 디스크 접근 권한을 끈다.
 
 ### 4. 리포트 넣기
 NeoFirm Report를 PDF로 받아 `input/report.pdf` 로 커밋·푸시.
