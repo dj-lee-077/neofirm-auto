@@ -6,3 +6,5 @@ Title: debate.md
 Title: verdict.md
 06:28:34 ERROR [notebooklm._rpc_executor] [req=4cac477e] RPC CREATE_ARTIFACT failed after 1.174s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
 06:29:36 ERROR [notebooklm._rpc_executor] [req=cb05d84a] RPC CREATE_ARTIFACT failed after 1.100s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
+06:31:37 ERROR [notebooklm._rpc_executor] [req=039c34ee] RPC CREATE_ARTIFACT failed after 0.987s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
+06:35:38 ERROR [notebooklm._rpc_executor] [req=a5ce3a7a] RPC CREATE_ARTIFACT failed after 0.925s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
