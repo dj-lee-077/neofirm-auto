@@ -18,6 +18,11 @@ jget() { # jget file '.a' '.b' ...
   for k in "$@"; do v=$(jq -r "$k // empty" "$f" 2>/dev/null | head -1); [ -n "$v" ] && { echo "$v"; return 0; }; done
   return 1
 }
+jget_full() { # jget_full file '.a' '.b' ... (여러 줄 전체 반환, 답변 본문용)
+  local f="$1"; shift; local v
+  for k in "$@"; do v=$(jq -r "$k // empty" "$f" 2>/dev/null); [ -n "$v" ] && { printf '%s\n' "$v"; return 0; }; done
+  return 1
+}
 ID_KEYS=('.id' '.notebook_id' '.notebook.id' '.source_id' '.source.id' '.data.id')
 TASK_KEYS=('.task_id' '.artifact_id' '.id' '.artifact.id')
 ANSWER_KEYS=('.answer' '.response' '.text' '.content')
@@ -32,7 +37,7 @@ nlm() {
 # ask 결과 JSON -> 본문 + 인용 마크다운
 ask_to_md() { # ask_to_md in.json out.md title
   { echo "# $3"; echo
-    jget "$1" "${ANSWER_KEYS[@]}" || jq -r '.' "$1"
+    jget_full "$1" "${ANSWER_KEYS[@]}" || jq -r '.' "$1"
     echo; echo "## 인용"
     jq -r '(.references // .citations // .sources // [])[]? | "- [\(.citation_number // .index // "-")] \(.title // .source_title // .source_id // "")"' "$1" 2>/dev/null || true
   } > "$2"
