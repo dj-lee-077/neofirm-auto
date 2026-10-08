@@ -7,3 +7,9 @@
 - 생성 파일: topic.md, research/*.md, research/brief.md·gaps.md, debate/r1~r3_*.md·debate.md·verdict.md·factcheck.md, output/memo.md·script_2min.md, state/slides_prompt.txt
 - 재개: 쿠키 재발급 → NOTEBOOKLM_AUTH_JSON 갱신 → 새 세션에서 /neofirm auto (state/notebook_id 재사용)
 - 참고: 이 브랜치에서 S12 재개 전 `git pull`로 state/*.done 포함 상태를 가져와야 함
+
+## 최종 (S12~S14 완료)
+- S12 완료 09:39 (재개 실행 09:2x~09:39), 산출물: output/slides.pdf, output/slides.pptx (6장)
+- S13: output/review.md (치명적 누락 없음, 수정 실행 안 함)
+- 심사 15/25, 소스 50개, 분야 세무·회계
+- 주의: "사람 개입 0회"는 S0~S11 자동 구간 기준. S12 단계에서는 쿠키 재발급·소스 삭제 개입이 있었음.
