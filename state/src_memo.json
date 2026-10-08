@@ -1,34 +1,8 @@
 {
-  "error": true,
-  "code": "UNCONFIRMED_WRITE",
-  "message": "Error: this write could not be confirmed (Failed to register file source for memo.md: The server rejected this request (invalid argument). Notebook currently has 50/50 sources, so this likely means the notebook has reached its tier-specific p…)",
-  "recovery_action": "inspect_and_reconcile",
-  "commit_state": "unknown",
-  "operation": "sources.add_file",
-  "reconciliation": {
-    "candidates": [],
-    "unresolved_inputs": [
-      "memo.md"
-    ],
-    "reason": "file registration response did not correlate a source id"
-  },
-  "unconfirmed": true,
-  "hint": "The outcome of this write is unknown — it may or may not have been created, and no further attempt was made once the check came back inconclusive. Reconcile against the notebook (or its source list) before retrying; retrying blind can create a duplicate."
-}
-{
-  "error": true,
-  "code": "UNCONFIRMED_WRITE",
-  "message": "Error: this write could not be confirmed (Failed to register file source for memo.md: The server rejected this request (invalid argument). Notebook currently has 50/50 sources, so this likely means the notebook has reached its tier-specific p…)",
-  "recovery_action": "inspect_and_reconcile",
-  "commit_state": "unknown",
-  "operation": "sources.add_file",
-  "reconciliation": {
-    "candidates": [],
-    "unresolved_inputs": [
-      "memo.md"
-    ],
-    "reason": "file registration response did not correlate a source id"
-  },
-  "unconfirmed": true,
-  "hint": "The outcome of this write is unknown — it may or may not have been created, and no further attempt was made once the check came back inconclusive. Reconcile against the notebook (or its source list) before retrying; retrying blind can create a duplicate."
+  "source": {
+    "id": "3c801cef-89c0-4a2c-a1bd-329a0f8a20e1",
+    "title": "memo.md",
+    "type": "unknown",
+    "url": null
+  }
 }

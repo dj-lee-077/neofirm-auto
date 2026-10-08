@@ -1,3 +1,8 @@
-06:18:42 ERROR [notebooklm._rpc_executor] [req=6f7008cd] RPC ADD_SOURCE_FILE failed after 0.635s: RPCError rpc_code=3
-[06:18:43] 재시도: notebooklm source add output/memo.md -n e7e2938d-33ae-4545-b203-56b9c2a86f7c --json
-06:19:16 ERROR [notebooklm._rpc_executor] [req=1d373924] RPC ADD_SOURCE_FILE failed after 0.607s: RPCError rpc_code=3
+✓ Source ready: 3c801cef-89c0-4a2c-a1bd-329a0f8a20e1
+Title: memo.md
+✓ Source ready: 64ed17d3-6a7c-47a9-974b-8b05f1195b17
+Title: debate.md
+✓ Source ready: 4ecdd558-364a-4486-b9f3-99a7916be67c
+Title: verdict.md
+06:28:34 ERROR [notebooklm._rpc_executor] [req=4cac477e] RPC CREATE_ARTIFACT failed after 1.174s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
+06:29:36 ERROR [notebooklm._rpc_executor] [req=cb05d84a] RPC CREATE_ARTIFACT failed after 1.100s: RateLimitError rpc_code=USER_DISPLAYABLE_ERROR
